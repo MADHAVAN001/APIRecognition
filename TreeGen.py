@@ -29,8 +29,8 @@ for row in root:
         answer = Answer(postId,body)
         if parentId in answerDictionary.keys():
             answerDictionary[parentId].append(answer)
-    if len(questions) >100:
-        if countPosts >500:
+    if len(questions) >200:
+        if countPosts >1000:
             break
 print "Number of questions in total: %d" % len(questions)
 
@@ -59,7 +59,7 @@ wordsDictionary = dict()
 cleanPost = []
 for post in posts:
     tmp = post
-    tmp = stripCode(post)
+    #tmp = stripCode(post)
     cleanPost.append(stripLinks(strip_tags(tmp)))
 
 stemWords = dict()
@@ -107,7 +107,7 @@ print posts
 def writeToFile():
     file = open('data.txt','w')
     for line in cleanPost:
-        print line
+        #print line
         file.write(line.encode('ascii',errors='ignore') + '\n')
     file.close()
 

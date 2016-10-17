@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../APIRecognition/.idea/ReadXML.iml" filepath="$PROJECT_DIR$/../APIRecognition/.idea/ReadXML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/APIRecognition.iml" filepath="$PROJECT_DIR$/.idea/APIRecognition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ReadXML.iml" filepath="$PROJECT_DIR$/.idea/ReadXML.iml" />
     </modules>
   </component>
 </project>
