@@ -78,6 +78,7 @@ for post in cleanPost:
             stemWords[stemWord] = 1
 
 
+
 sortedWords = sorted(wordsDictionary, key=wordsDictionary.get, reverse=True)
 print "\nWord frequencies without stemming......"
 
@@ -101,3 +102,13 @@ filteredWordsStemmed = [word for word in sortedStemWords if word not in stopword
 print "\nAfter removing the stop words....."
 for w in range(1,21):
   print w, filteredWordsStemmed[w], stemWords[filteredWordsStemmed[w]]
+
+print posts
+def writeToFile():
+    file = open('data.txt','w')
+    for line in cleanPost:
+        print line
+        file.write(line.encode('ascii',errors='ignore') + '\n')
+    file.close()
+
+writeToFile()
