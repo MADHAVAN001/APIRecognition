@@ -22,3 +22,26 @@ def stripCode(html):
 
 def stripLinks(string):
     return re.sub(r'^https?:\/\/.*[\r\n]*', '', string, flags=re.MULTILINE)
+
+def removePeriods(string):
+    post = re.sub('./',' ',string)
+    return post
+
+def removeCharacters(word):
+    cleanWord = re.sub('[.]|[:]|[,]|[?]|[(]|[)]|["]|[;]&^(.*[.].*)]','',word)
+    cleanWord = re.sub("[./]|[!]|[;]",'',cleanWord)
+    return cleanWord
+
+def getCode(post):
+    codeList = re.findall('<code>.*?</code>',post)
+    cleanCode = []
+    for code in codeList:
+        code = strip_tags(code)
+        code = stripComments(code)
+        cleanCode.append(code)
+    return cleanCode
+
+def stripComments(code):
+    code = re.sub('[/]+[*].*?[*][/]+', '', code)
+    code = re.sub('[/][/].*?\n','',code)
+    return code
