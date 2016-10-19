@@ -1,5 +1,6 @@
 import xml.etree.ElementTree as xml
 import re
+import pycrfsuite
 from stemming.porter2 import stem
 from nltk.corpus import stopwords
 
@@ -10,6 +11,8 @@ from HTMLRemove import strip_tags, stripCode, stripLinks, removePeriods, removeC
 #parsing of xml data into a tree format
 tree = xml.parse('Data\parsed.xml')
 root = tree.getroot()
+input_train = []
+output_train = []
 
 #dictionaries for questions and answer posts
 answerDictionary = dict()
@@ -82,8 +85,12 @@ for codeSnippet in code:
     for token in tokensFunction:
         codeTokens.append(token)
 
+file = open('codeTokens.txt','w')
+for line in codeTokens:
+    file.write(line.encode('ascii',errors='ignore') + '\n')
+file.close()
 print codeTokens
-print len(set(codeTokens))
+print "Number of Code Tokens : " + str(len(set(codeTokens)))
 
 apiMatching = []
 
@@ -92,8 +99,12 @@ for token in codeTokens:
     for call in tokens:
         apiMatching.append(call)
 
+file = open('apicalls.txt','w')
+for line in apiMatching:
+    file.write(line.encode('ascii',errors='ignore') + '\n')
+file.close()
 print apiMatching
-print len(set(apiMatching))
+print "Number of API Tokens : " + str(len(set(apiMatching)))
 
 wordTokens = []
 for post in cleanPost:
@@ -103,8 +114,46 @@ for post in cleanPost:
         if isinstance(cleanToken,str):
             wordTokens.append(cleanToken)
 print list(set(wordTokens))
-print len(list(set(wordTokens)))
+print "Number of Word Tokens : " + str(len(list(set(wordTokens))))
+file = open('wordTokens.txt','w')
+for line in wordTokens:
+    file.write(line.encode('ascii',errors='ignore') + '\n')
+file.close()
 
+tokenList = wordTokens + codeTokens + apiMatching
+for token in tokenList:
+    features = []
+    if re.match('\S+[.]\S+[(].*[)]',token):
+        features.append(1)
+    else:
+        features.append(0)
+    if re.match('\S+[.]\S+[(][)]',token):
+        features.append(1)
+    else:
+        features.append(0)
+    if re.match('\S*[A-Z].+',token):
+        features.append(1)
+    else:
+        features.append(0)
+    if re.search('.',token):
+        features.append(1)
+    else:
+        features.append(0)
+    input_train.append(features)
+    if re.match('\S+[.]\S+[(].*?[)]',token):
+        output_train.append(1)
+    else:
+        output_train.append(0)
+
+print "Input : "
+print input_train
+print "Output : "
+print output_train
+count = 0
+for i in output_train:
+    if i==1:
+        count+=1
+print "Total Positives : " + str(count)
 
 stemWords = dict()
 
@@ -152,3 +201,5 @@ def writeToFile():
     file.close()
 
 writeToFile()
+
+
