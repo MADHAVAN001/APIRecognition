@@ -2,10 +2,11 @@ import xml.etree.ElementTree as xml
 import re
 from stemming.porter2 import stem
 from nltk.corpus import stopwords
+import nltk
 
 from Question import Question
 from Answer import Answer
-from HTMLRemove import strip_tags, stripCode, stripLinks, removePeriods, removeCharacters,getCode
+from HTMLRemove import strip_tags, stripCode, stripLinks, removePeriods, removeCharacters,getCode, containsAPI
 
 #parsing of xml data into a tree format
 tree = xml.parse('Data\parsed.xml')
@@ -14,6 +15,8 @@ root = tree.getroot()
 #dictionaries for questions and answer posts
 answerDictionary = dict()
 questions = dict()
+removeQuestions = []
+tags_list = ['java','api','c#','python','string','c++']
 
 print root.tag
 countPosts = 0
@@ -22,12 +25,23 @@ for row in root:
     postId = row.attrib['Id']
     postType = row.attrib['PostTypeId']
     body = row.attrib['Body']
+    tmpBody = row.attrib['Body']
+    tmpBody = stripCode(body)
+
     if postType == '1':
+        if 'Tags' not in row.attrib or ('Tags' in row.attrib and not(any(tag in row.attrib['Tags'].lower() for tag in tags_list))):
+            removeQuestions.append(postId)
+            continue
+        if containsAPI(tmpBody) == 0 & len(questions)>100:
+            removeQuestions.append(postId)
+            continue
         ques = Question(postId,body)
         questions[postId] =  ques
         answerDictionary[postId] = []
     if postType == '2':
         parentId = row.attrib['ParentId']
+        if parentId in removeQuestions:
+            continue
         answer = Answer(postId,body)
         if parentId in answerDictionary.keys():
             answerDictionary[parentId].append(answer)
@@ -60,17 +74,19 @@ print "The total number of posts: %d" % len(posts)
 wordsDictionary = dict()
 cleanPost = []
 code = []
-codeTokens = []
 for post in posts:
-    codeInPosts = getCode(post)
     postsWithoutCode = stripCode(post)
+    postCode = getCode(post)
+    for codeSnippet in postCode:
+        #if containsAPI(codeSnippet) == 1:
+        code.append(codeSnippet)
     cleanPost.append(stripLinks(strip_tags(postsWithoutCode)))
-    for codeValue in codeInPosts:
-        code.append(codeValue)
 
+print code
 print len(code)
+print "$$"
 
-
+codeTokens = []
 for codeSnippet in code:
     tokens = re.sub('[;]',' ',codeSnippet)
     tokensFunction = re.findall('\S+[(].*?[)]',codeSnippet)
@@ -85,6 +101,17 @@ for codeSnippet in code:
 print codeTokens
 print len(set(codeTokens))
 
+def writeToAnnotationFile(list):
+    file = open('codeSnippets.txt','w')
+    for line in list:
+        file.write(line.encode('ascii',errors='ignore') + '=$$\n')
+    file.close()
+
+writeToAnnotationFile(set(codeTokens))
+
+
+
+
 apiMatching = []
 
 for token in codeTokens:
@@ -94,6 +121,7 @@ for token in codeTokens:
 
 print apiMatching
 print len(set(apiMatching))
+
 
 wordTokens = []
 for post in cleanPost:
@@ -152,3 +180,31 @@ def writeToFile():
     file.close()
 
 writeToFile()
+
+newList = []
+
+for token in codeTokens:
+    newList.append(token)
+
+for token in wordTokens:
+    newList.append(token)
+
+file = open('Token.txt','w')
+def writeToTokenFile(type,tokens):
+    part = ''
+    print type
+    if type == 1:
+        print "Part1"
+        part = 'O'
+    else:
+        part = "CODE"
+    for line in tokens:
+        if line == '':
+            continue
+        file.write((re.sub('\s','',line)).encode('ascii',errors='ignore') + '\t'+part+'\n')
+
+
+writeToTokenFile(1,codeTokens)
+writeToTokenFile(2,wordTokens)
+
+file.close()

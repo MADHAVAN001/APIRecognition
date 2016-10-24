@@ -17,7 +17,7 @@ def strip_tags(html):
 
 def stripCode(html):
     #print re.findall('<pre><code>.*?</code></pre>|<code>.*?</code>', html)
-    html = re.sub('<code>.*?</code>', '', html, flags=re.DOTALL)
+    html = re.sub('<pre><code>.*?</code></pre>', '', html, flags=re.DOTALL)
     return html
 
 def stripLinks(string):
@@ -45,3 +45,9 @@ def stripComments(code):
     code = re.sub('[/]+[*].*?[*][/]+', '', code)
     code = re.sub('[/][/].*?\n','',code)
     return code
+
+def containsAPI(code):
+    tokens = re.findall('\S+[.]\S+[(].*?[)]',code)
+    if(len(tokens)>0):
+        return 1
+    return 0
