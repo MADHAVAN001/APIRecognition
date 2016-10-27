@@ -1,0 +1,14 @@
+Try	O
+a	O
+combination	O
+of	O
+Script	O
+#	O
+(	O
+http	O
+:	O
+//www.nikhilk.net/ScriptSharpIntro.aspx	O
+)	O
+and	O
+Firebug	O
+Cheers	O

@@ -1,0 +1,12 @@
+Do	O
+n't	O
+forget	O
+nProf	O
+-	O
+a	O
+prefectly	O
+good	O
+,	O
+freeware	O
+profiler	O
+.	O

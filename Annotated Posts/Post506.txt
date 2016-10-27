@@ -1,0 +1,11 @@
+sounds	O
+like	O
+a	O
+case	O
+where	O
+you	O
+could	O
+use	O
+the	O
+strategy	O
+pattern	O

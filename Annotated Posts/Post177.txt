@@ -1,0 +1,15 @@
+Given	O
+a	O
+representing	O
+a	O
+person	O
+'s	O
+birthday	O
+,	O
+how	O
+do	O
+I	O
+calculate	O
+their	O
+age	O
+?	O

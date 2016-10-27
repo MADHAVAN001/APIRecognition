@@ -1,0 +1,17 @@
+How	O
+to	O
+Design	O
+Programs	O
+Structure	O
+and	O
+Interpretation	O
+of	O
+Computer	O
+Programs	O
+.	O
+Videos	O
+lectures	O
+at	O
+http	O
+:	O
+//www.swiss.ai.mit.edu/classes/6.001/abelson-sussman-lectures/	O

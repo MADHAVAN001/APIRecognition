@@ -1,0 +1,15 @@
+I	O
+would	O
+not	O
+use	O
+config	O
+files	O
+for	O
+storing	O
+user	O
+data	O
+.	O
+Use	O
+a	O
+db	O
+.	O

@@ -1,0 +1,17 @@
+There	O
+are	O
+several	O
+ways	O
+to	O
+iterate	O
+over	O
+a	O
+result	O
+set	O
+,	O
+which	O
+way	O
+is	O
+the	O
+best	O
+?	O

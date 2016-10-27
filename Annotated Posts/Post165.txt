@@ -1,0 +1,17 @@
+Is	O
+CompileAssemblyFromDom	O
+faster	O
+than	O
+CompileAssemblyFromSource	O
+?	O
+It	O
+should	O
+be	O
+as	O
+it	O
+presumably	O
+bypasses	O
+the	O
+compiler	O
+front-end	O
+.	O

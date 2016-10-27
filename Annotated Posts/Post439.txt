@@ -1,0 +1,10 @@
+I	O
+would	O
+look	O
+into	O
+IMAP	O
+IMAP	O
+,	O
+POP3	O
+and	O
+NNTP	O

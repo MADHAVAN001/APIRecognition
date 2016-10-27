@@ -1,0 +1,14 @@
+Does	O
+this	O
+get	O
+the	O
+correct	O
+answer	O
+?	O
+document.getElementById	O
+(	O
+``	O
+newSkill	O
+''	O
+)	O
+.innerHTML	O

@@ -1,0 +1,17 @@
+In	O
+WPF	O
+and	O
+Silverlight	O
+the	O
+binding	O
+infrastructure	O
+takes	O
+care	O
+of	O
+the	O
+switching	O
+to	O
+the	O
+UI	O
+thread	O
+.	O

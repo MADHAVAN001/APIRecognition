@@ -1,0 +1,15 @@
+How	O
+can	O
+I	O
+set	O
+the	O
+CSS	O
+background	O
+color	O
+of	O
+an	O
+HTML	O
+element	O
+using	O
+JavaScript	O
+?	O

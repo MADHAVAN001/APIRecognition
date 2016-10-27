@@ -1,0 +1,5 @@
+Simple	O
+answer	O
+,	O
+YES	O
+.	O

@@ -1,0 +1,10 @@
+How	O
+do	O
+I	O
+format	O
+a	O
+string	O
+to	O
+title	O
+case	O
+?	O

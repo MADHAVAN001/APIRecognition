@@ -1,0 +1,15 @@
+How	O
+do	O
+you	O
+resolve	O
+a	O
+domain	O
+name	O
+to	O
+an	O
+IP	O
+address	O
+with	O
+.NET/C	O
+#	O
+?	O

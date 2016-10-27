@@ -1,0 +1,16 @@
+If	O
+you	O
+use	O
+a	O
+return	O
+type	O
+of	O
+,	O
+you	O
+can	O
+return	O
+your	O
+query	O
+variable	O
+directly	O
+.	O

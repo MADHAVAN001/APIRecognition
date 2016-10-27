@@ -1,0 +1,17 @@
+For	O
+a	O
+Mock	O
+Object	O
+library	O
+,	O
+I	O
+'ve	O
+found	O
+the	O
+BSD-licensed	O
+Rhino.Mocks	O
+to	O
+be	O
+rather	O
+pleasing	O
+.	O

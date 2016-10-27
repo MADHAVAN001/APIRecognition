@@ -1,0 +1,17 @@
+.selectedIndex	B
+]	I
+.value	I
+document.getElementById	B
+(	I
+'newSkill	I
+'	I
+)	I
+.options	I
+[	I
+document.getElementById	I
+(	I
+'newSkill	I
+'	I
+)	I
+Should	O
+work	O

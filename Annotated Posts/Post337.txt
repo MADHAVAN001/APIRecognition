@@ -1,0 +1,15 @@
+Create	O
+a	O
+class	O
+object	O
+and	O
+return	O
+a	O
+list	B
+(	I
+T	I
+)	I
+of	O
+the	O
+query	O
+.	O

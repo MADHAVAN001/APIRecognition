@@ -1,0 +1,11 @@
+var	B
+element	B
+=	B
+;	B
+element.style.background	I
+=	B
+document.getElementById	B
+(	I
+'element	I
+'	I
+)	I

@@ -1,0 +1,9 @@
+Would	O
+use	O
+double.TryParse	O
+,	O
+it	O
+has	O
+performance	O
+benefits	O
+.	O

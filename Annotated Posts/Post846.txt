@@ -1,0 +1,15 @@
+print	O
+int	O
+(	O
+'01010101111',2	O
+)	O
+687	O
+print	O
+int	O
+(	O
+'11111111',2	O
+)	O
+255	O
+Another	O
+way	O
+.	O

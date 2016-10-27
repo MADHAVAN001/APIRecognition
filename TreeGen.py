@@ -2,12 +2,12 @@ import xml.etree.ElementTree as xml
 import re
 from stemming.porter2 import stem
 from nltk.corpus import stopwords
-from Annotate import codeTokenize, annotatedCode
+from ReadAnnotation import annotatedCode
 import nltk
 
 from Question import Question
 from Answer import Answer
-from HTMLRemove import strip_tags, stripCode, stripLinks, removePeriods, removeCharacters,getCode, containsAPI, removeAllCode
+from HTMLRemove import strip_tags, stripCode, stripLinks, containsAPI, removeAllCode
 
 #parsing of xml data into a tree format
 tree = xml.parse('Data\parsed.xml')
@@ -75,40 +75,10 @@ print "The total number of posts: %d" % len(posts)
 wordsDictionary = dict()
 tokenizedPosts = []
 
-AllTokens = []
-tokenizedDict = annotatedCode("Annotated_1.txt")
-print len(tokenizedDict)
-for post in posts:
-    postsWithoutCode = stripCode(post)
-    postCode = getCode(post)
-    subPost = strip_tags(post)
-    thisPostTokens = []
-    for codeline in postCode:
-        if codeline != '':
-            codePosition = subPost.find(codeline)#re.search(codeline, )
-            if codePosition != -1:
-                tokenizableWords = subPost.split(codeline, 1)[0]
-                subPost = subPost.split(codeline, 1)[1]
-                postwordTokens = nltk.word_tokenize(tokenizableWords)
-                for token in postwordTokens:
-                    thisPostTokens.append([token,'O'])
-                codeTokens = codeTokenize(codeline)
-                if codeTokens != None:
-                    for token in codeTokens:
-                        if token in tokenizedDict.keys():
-                            postCodeTokens = nltk.word_tokenize(token)
-                            thisPostTokens.append([postCodeTokens[0],'P'])
-                            for i in range(1,len(postCodeTokens)):
-                                thisPostTokens.append([postCodeTokens[i],'I'])
-                        else:
-                            postCodeTokens = nltk.word_tokenize(token)
-                            for i in range(1,len(postCodeTokens)):
-                                thisPostTokens.append([postCodeTokens[i],'O'])
-    postwordTokens = nltk.word_tokenize(subPost)
-    for token in postwordTokens:
-        thisPostTokens.append([token,'O'])
-    tokenizedPosts.append(thisPostTokens)
+for i in range(0, len(posts)):
+    tokenizedPosts.append(annotatedCode("Annotated Posts\Post"+str(i)+".txt"))
 
+print len(tokenizedPosts)
 
 words = []
 
@@ -155,11 +125,3 @@ print "\nAfter removing the stop words and after stemming....."
 for w in range(1,21):
   print w, filteredWordsStemmed[w], stemWords[filteredWordsStemmed[w]]
 
-def writeAnnotation():
-    file = open("Token.txt",'w')
-    for post in tokenizedPosts:
-        for list in post:
-            file.write(list[0].encode('ascii',errors='ignore') + '\t' + list[1] + '\n')
-    file.close()
-
-writeAnnotation()

@@ -1,0 +1,8 @@
+If	O
+you	O
+use	O
+jquery	O
+:	O
+http	O
+:	O
+//code.google.com/p/flot/	O

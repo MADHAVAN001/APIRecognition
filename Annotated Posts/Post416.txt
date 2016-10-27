@@ -1,0 +1,8 @@
+For	O
+the	O
+YUI	O
+users	O
+:	O
+http	O
+:	O
+//developer.yahoo.com/yui/charts/	O

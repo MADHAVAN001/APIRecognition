@@ -1,0 +1,16 @@
+Rather	O
+than	O
+using	O
+ctrl+k	O
+,	O
+x	O
+you	O
+can	O
+also	O
+just	O
+type	O
+and	O
+then	O
+hit	O
+tab	O
+twice	O
