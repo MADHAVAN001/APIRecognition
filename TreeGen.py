@@ -2,11 +2,12 @@ import xml.etree.ElementTree as xml
 import re
 from stemming.porter2 import stem
 from nltk.corpus import stopwords
+from Annotate import codeTokenize, annotatedCode
 import nltk
 
 from Question import Question
 from Answer import Answer
-from HTMLRemove import strip_tags, stripCode, stripLinks, removePeriods, removeCharacters,getCode, containsAPI
+from HTMLRemove import strip_tags, stripCode, stripLinks, removePeriods, removeCharacters,getCode, containsAPI, removeAllCode
 
 #parsing of xml data into a tree format
 tree = xml.parse('Data\parsed.xml')
@@ -72,71 +73,52 @@ for id in answerDictionary.keys():
 print "The total number of posts: %d" % len(posts)
 
 wordsDictionary = dict()
-cleanPost = []
-code = []
+tokenizedPosts = []
+
+AllTokens = []
+tokenizedDict = annotatedCode("Annotated_1.txt")
+print len(tokenizedDict)
 for post in posts:
     postsWithoutCode = stripCode(post)
     postCode = getCode(post)
-    for codeSnippet in postCode:
-        #if containsAPI(codeSnippet) == 1:
-        code.append(codeSnippet)
-    cleanPost.append(stripLinks(strip_tags(postsWithoutCode)))
-
-print code
-print len(code)
-print "$$"
-
-codeTokens = []
-for codeSnippet in code:
-    tokens = re.sub('[;]',' ',codeSnippet)
-    tokensFunction = re.findall('\S+[(].*?[)]',codeSnippet)
-    codeSnippet = re.sub('\S+[(].*?[)]','',codeSnippet)
-    tokens = re.findall('(\S+\s)',codeSnippet)
-    tokens = tokens
-    for token in tokens:
-        codeTokens.append(re.sub('\s','',token))
-    for token in tokensFunction:
-        codeTokens.append(token)
-
-print codeTokens
-print len(set(codeTokens))
-
-def writeToAnnotationFile(list):
-    file = open('codeSnippets.txt','w')
-    for line in list:
-        file.write(line.encode('ascii',errors='ignore') + '=$$\n')
-    file.close()
-
-writeToAnnotationFile(set(codeTokens))
+    subPost = strip_tags(post)
+    thisPostTokens = []
+    for codeline in postCode:
+        if codeline != '':
+            codePosition = subPost.find(codeline)#re.search(codeline, )
+            if codePosition != -1:
+                tokenizableWords = subPost.split(codeline, 1)[0]
+                subPost = subPost.split(codeline, 1)[1]
+                postwordTokens = nltk.word_tokenize(tokenizableWords)
+                for token in postwordTokens:
+                    thisPostTokens.append([token,'O'])
+                codeTokens = codeTokenize(codeline)
+                if codeTokens != None:
+                    for token in codeTokens:
+                        if token in tokenizedDict.keys():
+                            postCodeTokens = nltk.word_tokenize(token)
+                            thisPostTokens.append([postCodeTokens[0],'P'])
+                            for i in range(1,len(postCodeTokens)):
+                                thisPostTokens.append([postCodeTokens[i],'I'])
+                        else:
+                            postCodeTokens = nltk.word_tokenize(token)
+                            for i in range(1,len(postCodeTokens)):
+                                thisPostTokens.append([postCodeTokens[i],'O'])
+    postwordTokens = nltk.word_tokenize(subPost)
+    for token in postwordTokens:
+        thisPostTokens.append([token,'O'])
+    tokenizedPosts.append(thisPostTokens)
 
 
+words = []
 
-
-apiMatching = []
-
-for token in codeTokens:
-    tokens = re.findall('\S+[.]\S+[(].*?[)]',token)
-    for call in tokens:
-        apiMatching.append(call)
-
-print apiMatching
-print len(set(apiMatching))
-
-
-wordTokens = []
-for post in cleanPost:
-    postTokens = re.split('\s', post)
-    for token in postTokens:
-        cleanToken = removeCharacters(token).lower()
-        if isinstance(cleanToken,str):
-            wordTokens.append(cleanToken)
-print list(set(wordTokens))
-print len(list(set(wordTokens)))
-
+for post in posts:
+    postsWithoutCode = strip_tags(removeAllCode(post))
+    tokenizedWords = nltk.word_tokenize(stripLinks(postsWithoutCode))
+    for word in tokenizedWords:
+        words.append(word.lower())
 
 stemWords = dict()
-
-words = wordTokens
 
 for word in words:
     if word in wordsDictionary.keys():
@@ -156,7 +138,7 @@ for w in range(1,21):
   print w, sortedWords[w], wordsDictionary[sortedWords[w]]
 
 sortedStemWords = sorted(stemWords, key=stemWords.get, reverse=True)
-print "\nWord frequencies after stemming and after removing the stop words......"
+print "\nWord frequencies after stemming and before removing the stop words......"
 
 for w in range(1,21):
   print w, sortedStemWords[w], stemWords[sortedStemWords[w]]
@@ -173,38 +155,11 @@ print "\nAfter removing the stop words and after stemming....."
 for w in range(1,21):
   print w, filteredWordsStemmed[w], stemWords[filteredWordsStemmed[w]]
 
-def writeToFile():
-    file = open('data.txt','w')
-    for line in cleanPost:
-        file.write(line.encode('ascii',errors='ignore') + '\n')
+def writeAnnotation():
+    file = open("Token.txt",'w')
+    for post in tokenizedPosts:
+        for list in post:
+            file.write(list[0].encode('ascii',errors='ignore') + '\t' + list[1] + '\n')
     file.close()
 
-writeToFile()
-
-newList = []
-
-for token in codeTokens:
-    newList.append(token)
-
-for token in wordTokens:
-    newList.append(token)
-
-file = open('Token.txt','w')
-def writeToTokenFile(type,tokens):
-    part = ''
-    print type
-    if type == 1:
-        print "Part1"
-        part = 'O'
-    else:
-        part = "CODE"
-    for line in tokens:
-        if line == '':
-            continue
-        file.write((re.sub('\s','',line)).encode('ascii',errors='ignore') + '\t'+part+'\n')
-
-
-writeToTokenFile(1,codeTokens)
-writeToTokenFile(2,wordTokens)
-
-file.close()
+writeAnnotation()

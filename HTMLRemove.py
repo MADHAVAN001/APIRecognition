@@ -20,7 +20,14 @@ def stripCode(html):
     html = re.sub('<pre><code>.*?</code></pre>', '', html, flags=re.DOTALL)
     return html
 
+def removeAllCode(html):
+    #print re.findall('<pre><code>.*?</code></pre>|<code>.*?</code>', html)
+    html = re.sub('<pre><code>.*?</code></pre>|<code>.*?</code>', '', html, flags=re.DOTALL)
+    return html
+
+
 def stripLinks(string):
+    string = removeCharacters(string)
     return re.sub(r'^https?:\/\/.*[\r\n]*', '', string, flags=re.MULTILINE)
 
 def removePeriods(string):
@@ -28,8 +35,8 @@ def removePeriods(string):
     return post
 
 def removeCharacters(word):
-    cleanWord = re.sub('[.]|[:]|[,]|[?]|[(]|[)]|["]|[;]&^(.*[.].*)]','',word)
-    cleanWord = re.sub("[./]|[!]|[;]",'',cleanWord)
+    cleanWord = re.sub(r'[.]|[:]|[,]|[?]|[(]|[)]|["]|[;]|[#]|[-]&^(.*[.].*)]','',word)
+    cleanWord = re.sub(r'[.]|[!]|[;]','',cleanWord)
     return cleanWord
 
 def getCode(post):
