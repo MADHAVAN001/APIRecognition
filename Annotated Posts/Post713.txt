@@ -13,14 +13,14 @@ check	O
 the	O
 value	O
 of	O
-IntPtr.Size	O
+IntPtr.Size	B
 .	O
 I	O
 believe	O
 the	O
 value	O
 of	O
-IntPtr.Size	O
+IntPtr.Size	B
 is	O
 4	O
 for	O

@@ -1,4 +1,4 @@
-AppDomain.UnhandledException	O
+AppDomain.UnhandledException	B
 is	O
 an	O
 event	O

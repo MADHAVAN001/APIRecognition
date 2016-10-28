@@ -124,7 +124,7 @@ etc	O
 and	O
 the	O
 ``	O
-Capitalize	O
+Capitalize	B
 ''	O
 function	O
 will	O

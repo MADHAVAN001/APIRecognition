@@ -1,7 +1,7 @@
-'alert	O
-(	O
-x	O
-)	O
+'alert	B
+(	I
+x	I
+)	I
 ;	O
 '	O
 was	O

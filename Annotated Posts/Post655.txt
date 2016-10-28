@@ -8,9 +8,9 @@ the	O
 request	O
 object	O
 :	O
-HttpRequest.getParameterMap	O
-(	O
-)	O
+HttpRequest.getParameterMap	B
+(	I
+)	I
 .	O
 The	O
 exception	O
@@ -61,9 +61,9 @@ existing	O
 one	O
 like	O
 the	O
-Apache	O
-Commons	O
-File	O
-Upload	O
-API	O
+Apache	B
+Commons	I
+File	I
+Upload	I
+API	I
 .	O

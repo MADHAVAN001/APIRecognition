@@ -19,7 +19,7 @@ this	O
 var	O
 Person	O
 =	O
-Class.create	O
+Class.create	B
 (	O
 {	O
 initialize	O

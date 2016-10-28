@@ -63,13 +63,13 @@ dateAsAt	O
 )	O
 {	O
 return	O
-dateAsAt.Year	O
+dateAsAt.Year	B
 -	O
-dateOfBirth.Year	O
+dateOfBirth.Year	B
 -	O
 (	O
-dateOfBirth.DayOfYear	O
-dateAsAt.DayOfYear	O
+dateOfBirth.DayOfYear	B
+dateAsAt.DayOfYear	B
 ?	O
 0	O
 :	O

@@ -22,10 +22,10 @@ sense	O
 to	O
 throw	O
 an	O
-IllegalArgumentException	O
+IllegalArgumentException	B
 .	O
 A	O
-NullPointerException	O
+NullPointerException	B
 seems	O
 to	O
 make	O
@@ -69,5 +69,5 @@ it	O
 's	O
 null	O
 ,	O
-IllegalArgument	O
+IllegalArgument	B
 .	O
