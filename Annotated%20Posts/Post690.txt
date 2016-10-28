@@ -1,0 +1,9 @@
+For	O
+Perl	O
+,	O
+there	O
+'s	O
+WWW	O
+:	O
+:Mechanize	O
+.	O

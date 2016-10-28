@@ -1,0 +1,13 @@
+Joey	O
+,	O
+I	O
+believe	O
+anything	O
+is	O
+lighter	O
+than	O
+Eclipse	O
+!	O
+:	O
+o	O
+)	O

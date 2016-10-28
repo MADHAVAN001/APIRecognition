@@ -1,0 +1,12 @@
+Firebug	B
+is	O
+pretty	O
+well	O
+unbeatable	O
+for	O
+JavaScript	O
+development	O
+in	O
+a	O
+browser	O
+.	O
