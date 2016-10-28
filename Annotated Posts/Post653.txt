@@ -135,7 +135,7 @@ type=	O
 ''	O
 text/javascript	O
 ''	O
-Object.prototype.size	O
+Object.prototype.size	B
 =	O
 function	O
 (	O
@@ -144,10 +144,10 @@ function	O
 var	O
 len	O
 =	O
-this.length	O
+this.length	B
 ?	O
 --	O
-this.length	O
+this.length	B
 :	O
 -1	O
 ;	O
@@ -173,10 +173,10 @@ function	O
 var	O
 len	O
 =	O
-this.length	O
+this.length	B
 ?	O
 --	O
-this.length	O
+this.length	B
 :	O
 -1	O
 ;	O
