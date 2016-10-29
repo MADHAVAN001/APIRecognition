@@ -154,10 +154,10 @@ width:50	O
 %	O
 ;	O
 }	O
-div.clear	O
-{	O
-clear	O
-:	O
+div.clear	B
+{	I
+clear	I
+:	I
 both	O
 ;	O
 }	O

@@ -1,4 +1,4 @@
-gedit	O
+gedit	B
 Syntax	O
 highlighting	O
 Fast	O

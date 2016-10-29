@@ -131,7 +131,7 @@ Hudson	O
 trend	O
 graphs	O
 our	O
-JUnit	O
+JUnit	B
 tests	O
 ,	O
 coverage	O

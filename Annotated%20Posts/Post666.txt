@@ -1,8 +1,0 @@
-gedit	B
-Syntax	O
-highlighting	O
-Fast	O
-,	O
-lightweight	O
-Tabs	O
-GUI	O

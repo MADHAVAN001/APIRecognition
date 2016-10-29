@@ -2,9 +2,9 @@ Some	O
 object	O
 suppose	O
 the	O
-.dispose	O
-(	O
-)	O
+.dispose	B
+(	I
+)	I
 method	O
 which	O
 forces	O

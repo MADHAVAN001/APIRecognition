@@ -51,7 +51,7 @@ I	O
 had	O
 problems	O
 with	O
-TestDriven.NET	O
+TestDriven.NET	B
 running	O
 my	O
 SetUp	O

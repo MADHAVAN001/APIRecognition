@@ -1,11 +1,11 @@
 Try	O
 creating	O
 a	O
-div	O
-(	O
-'div	O
-'	O
-)	O
+div	B
+(	I
+'div	I
+'	I
+)	I
 And	O
 then	O
 set	O

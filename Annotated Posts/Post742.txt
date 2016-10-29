@@ -5,7 +5,7 @@ should	O
 definitely	O
 throw	O
 a	O
-IllegalArgumentException	O
+IllegalArgumentException	B
 and	O
 thus	O
 fail-fast	O
