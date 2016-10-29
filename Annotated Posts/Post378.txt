@@ -179,7 +179,7 @@ app'	O
 Start	O
 up	O
 Call	O
-Application.Run	O
+Application.Run	B
 and	O
 pass	O
 in	O

@@ -93,7 +93,7 @@ d	B
 5,000.00	O
 ''	O
 ,	O
-NumberStyles.Any	O
+NumberStyles.Any	B
 ,	O
-CultureInfo.InvariantCulture	O
+CultureInfo.InvariantCulture	B
 )	O
