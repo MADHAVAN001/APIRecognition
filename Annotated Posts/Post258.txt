@@ -22,7 +22,7 @@ I	O
 would	O
 suggest	O
 to	O
-BLAS	O
+BLAS	B
 (	O
 which	O
 I	O
@@ -31,7 +31,7 @@ is	O
 a	O
 part	O
 of	O
-LAPACK	O
+LAPACK	B
 )	O
 which	O
 can	O
