@@ -2,8 +2,8 @@ I	O
 'm	O
 using	O
 a	O
-Dictionarystring	B
-,	I
+Dictionarystring	O
+,	O
 where	O
 the	O
 is	O
@@ -45,9 +45,9 @@ LastCount	O
 =	O
 mydict	O
 [	O
-mydict.keys	O
+mydict.keys	B
 [	O
-mydict.keys.Count	O
+mydict.keys.Count	B
 ]	O
 ]	O
 ;	O

@@ -201,9 +201,9 @@ to	O
 the	O
 affect	O
 of	O
-WaitForMultipleObjects	B
-(	I
-)	I
+WaitForMultipleObjects	O
+(	O
+)	O
 and	O
 pass	O
 it	O

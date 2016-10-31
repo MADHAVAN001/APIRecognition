@@ -29,9 +29,9 @@ DataTable	O
 myDt	O
 =	O
 new	O
-DataTable	O
-(	O
-)	O
+DataTable	B
+(	I
+)	I
 ;	O
 if	O
 (	O

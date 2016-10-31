@@ -217,11 +217,11 @@ debug	O
 environment	O
 (	O
 say	O
-Visual	B
-Studio	B
-98	B
-/	B
-AKA	B
+Visual	O
+Studio	O
+98	O
+/	O
+AKA	O
 )	O
 the	O
 heap	O
