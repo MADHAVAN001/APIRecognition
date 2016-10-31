@@ -30,11 +30,11 @@ extra-bloated	O
 Safari	O
 throws	O
 a	O
-``	B
-Validation	I
-of	B
-viewstate	B
-MAC	B
+``	O
+Validation	O
+of	O
+viewstate	O
+MAC	O
 error	O
 .	O
 This	O

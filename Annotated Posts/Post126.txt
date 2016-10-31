@@ -2,10 +2,10 @@ I	O
 am	O
 using	O
 the	O
-Photoshop	O
-'s	O
-javascript	O
-API	O
+Photoshop	B
+'s	I
+javascript	I
+API	I
 to	O
 find	O
 the	O
@@ -71,8 +71,8 @@ A	O
 Python	O
 function	O
 An	O
-OSX	O
-API	O
+OSX	B
+API	I
 that	O
 I	O
 can	O

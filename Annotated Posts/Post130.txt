@@ -123,7 +123,7 @@ I	O
 tried	O
 adding	O
 a	O
-while	B
+while	O
 loop	O
 ,	O
 but	O

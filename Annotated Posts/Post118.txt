@@ -1,5 +1,5 @@
 Using	O
-MAPI	O
+MAPI	B
 functions	O
 from	O
 within	O
@@ -11,7 +11,7 @@ unsupported	O
 .	O
 Apparently	O
 ,	O
-MAPI	O
+MAPI	B
 uses	O
 its	O
 own	O
@@ -59,7 +59,7 @@ I	O
 been	O
 looking	O
 into	O
-MAPISendDocuments	O
+MAPISendDocuments	B
 and	O
 it	O
 seems	O

@@ -12,9 +12,9 @@ and	O
 I	O
 tried	O
 :	O
-myInt.toString	O
-(	O
-)	O
+myInt.toString	B
+(	I
+)	I
 ;	O
 This	O
 fails	O
@@ -99,9 +99,9 @@ Integer	O
 and	O
 then	O
 call	O
-toString	O
-(	O
-)	O
+toString	B
+(	I
+)	I
 on	O
 that	O
 .	O

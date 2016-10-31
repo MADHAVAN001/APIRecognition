@@ -20,7 +20,7 @@ working	O
 on	O
 using	O
 the	O
-System.Web.HttpResponse	O
+System.Web.HttpResponse	B
 ``	O
 Page.Response	O
 ''	O
@@ -76,11 +76,11 @@ around	O
 the	O
 use	O
 of	O
-Response.ContentType	O
+Response.ContentType	B
 .	O
 By	O
 using	O
-Response.ContentType	O
+Response.ContentType	B
 =	O
 ``	O
 application/octet-stream	O
@@ -120,7 +120,7 @@ little	O
 error	O
 .	O
 using	O
-Response.ContentType	O
+Response.ContentType	B
 =	O
 ``	O
 application/x-shockwave-flash	O
