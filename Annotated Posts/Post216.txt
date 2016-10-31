@@ -111,11 +111,11 @@ Line	O
 var	O
 frmTemp	O
 =	O
-document.getElementById	O
-(	O
-'f	O
-'	O
-)	O
+document.getElementById	B
+(	I
+'f	I
+'	I
+)	I
 ;	O
 But	O
 you	O
