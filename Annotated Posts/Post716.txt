@@ -71,9 +71,9 @@ o.GetType	O
 (	O
 fieldName	O
 ,	O
-BindingFlags.Instance	O
+BindingFlags.Instance	B
 |	O
-BindingFlags.NonPublic	O
+BindingFlags.NonPublic	B
 )	O
 ;	O
 field.SetValue	O

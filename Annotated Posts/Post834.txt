@@ -88,7 +88,7 @@ around	O
 so	O
 that	O
 the	O
-UnhandledException	O
+UnhandledException	B
 event	O
 fires	O
 before	O

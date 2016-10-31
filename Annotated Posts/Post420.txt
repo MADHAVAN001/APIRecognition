@@ -25,7 +25,7 @@ the	O
 call	O
 over	O
 to	O
-ScriptManager.RegisterClientScriptBlock	O
+ScriptManager.RegisterClientScriptBlock	B
 ,	O
 regardless	O
 of	O

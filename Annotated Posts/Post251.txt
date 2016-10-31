@@ -52,7 +52,7 @@ that	O
 would	O
 mean	O
 that	O
-keys.Count	O
+keys.Count	B
 (	O
 or	O
 .Count	O
@@ -100,6 +100,6 @@ can	O
 use	O
 mydict	O
 [	O
-mydict.Keys.Count	O
+mydict.Keys.Count	B
 ]	O
 ?	O

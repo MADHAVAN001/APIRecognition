@@ -20,7 +20,7 @@ you	O
 could	O
 just	O
 inherit	O
-javax.swing.AbstractButton	O
+javax.swing.AbstractButton	B
 and	O
 create	O
 your	O

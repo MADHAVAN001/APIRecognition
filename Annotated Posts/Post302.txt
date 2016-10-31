@@ -39,7 +39,7 @@ parser	O
 and	O
 hook	O
 up	O
-JDOM	O
+JDOM	B
 (	O
 or	O
 your	O

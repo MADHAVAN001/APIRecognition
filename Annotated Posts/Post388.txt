@@ -178,11 +178,11 @@ execution	O
 .	O
 execute	O
 the	O
-rdtsc	O
-(	O
-read	O
-timestamp	O
-)	O
+rdtsc	B
+(	I
+read	I
+timestamp	I
+)	I
 execution	O
 .	O
 This	O
