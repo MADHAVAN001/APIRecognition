@@ -1,6 +1,6 @@
 from nltk.tag import StanfordNERTagger
 import os
-from pandas_ml import ConfusionMatrix
+#from pandas_ml import ConfusionMatrix
 from ReadAnnotation import annotatedCode
 
 def generateTokenFile(tokenizedPosts):
@@ -36,10 +36,10 @@ def genPredictedList(testData):
     return prediction
 
 
-def generateAnalysis(reference, predicted):
-    cm = ConfusionMatrix(reference, predicted)
-    print cm
-    print cm.print_stats()
+#def generateAnalysis(reference, predicted):
+    #cm = ConfusionMatrix(reference, predicted)
+    #print cm
+    #print cm.print_stats()
 
 
 def trainNERModel(trainData):
@@ -63,11 +63,11 @@ def genTestFile(testData,k,i):
 
 def kcrossValidation():
     tokenizedPosts = []
-    k = 2;
     for i in range(0, 863):
         tokenizedPosts.append(annotatedCode("Annotated Posts\Post" + str(i) + ".txt"))
-    num = (int)(len(tokenizedPosts) / k)
+
     for k in range(2,10):
+        num = (int)(len(tokenizedPosts) / k)
         for i in range(0,k):
             testData = tokenizedPosts[i * num:i * num + num]
             trainData = [jj for jj in tokenizedPosts if jj not in testData]

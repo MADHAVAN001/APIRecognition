@@ -88,6 +88,33 @@ for post in posts:
     for word in tokenizedWords:
         words.append(word.lower())
 
+lenPost = []
+dictPost = dict()
+dictPost['0-100'] = 0
+dictPost['100-1000'] = 0
+dictPost['1000-5000'] = 0
+dictPost['5000-10000'] = 0
+dictPost['10000-15000'] = 0
+
+for post in posts:
+    lenPost.append(len(post))
+    if(len(post))<100:
+        dictPost['0-100'] +=1
+    elif ((len(post))>100 and (len(post))<1000):
+        dictPost['100-1000'] += 1
+    elif ((len(post))>1000 and (len(post))<5000):
+        dictPost['1000-5000'] += 1
+    elif ((len(post))>5000 and (len(post))<10000):
+        dictPost['5000-10000'] += 1
+    elif ((len(post))>10000 and (len(post))<15000):
+        dictPost['10000-15000'] += 1
+print lenPost
+print dictPost
+print "Minimum number of tokens: " + str(min(lenPost))
+print "Maximum number of tokens: " + str(max(lenPost))
+
+
+
 stemWords = dict()
 
 for word in words:
