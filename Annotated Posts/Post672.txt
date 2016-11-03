@@ -212,7 +212,7 @@ for	O
 etags	O
 M-x	O
 compile	B
-(	OI
+(	I
 add-hook	I
 'mylanguage-mode-hook	I
 '	I

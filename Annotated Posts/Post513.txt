@@ -9,7 +9,7 @@ string	O
 parameter	O
 ,	O
 the	O
-Javascript	O
+Javascript	B
 function	O
 thinks	O
 I	O
@@ -28,7 +28,7 @@ string	O
 function	O
 to	O
 force	O
-JavaScript	O
+JavaScript	B
 into	O
 changing	O
 it	O
@@ -37,7 +37,7 @@ a	O
 string	O
 ?	O
 Like	O
-value	B
-=	B
-value	B
-+	B
+value	O
+=	O
+value	O
++	O

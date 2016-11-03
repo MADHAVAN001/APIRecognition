@@ -1,4 +1,4 @@
-Java	O
+Java	B
 autoboxing/unboxing	O
 does	O
 n't	O
@@ -98,8 +98,8 @@ to	O
 your	O
 way	O
 )	O
-Integer.toString	O
-(	O
-myInt	O
-)	O
+Integer.toString	B
+(	I
+myInt	I
+)	I
 ;	O

@@ -9,11 +9,11 @@ for	O
 Windows	O
 was	O
 with	O
-C	O
-#	O
+C	B
+#	I
 and	O
-Visual	O
-Studio	O
+Visual	B
+Studio	I
 .	O
 The	O
 GUI-building	O

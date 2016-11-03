@@ -10,12 +10,12 @@ first	O
 thing	O
 inside	O
 your	O
-foreach	O
+foreach	B
 .	O
 if	B
-(	B
+(	I
 sb.Length	I
-0	B
+0	I
 )	I
 sb.Append	B
 (	I

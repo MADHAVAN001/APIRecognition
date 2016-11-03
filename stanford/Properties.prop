@@ -19,7 +19,7 @@ useNGrams=true
 #no ngrams will be included that do not contain either the
 #beginning or end of the word
 noMidNGrams=true
-retainEntitySubclassification=true
+#retainEntitySubclassification=true
 useDisjunctive=true
 maxNGramLeng=6
 usePrev=true

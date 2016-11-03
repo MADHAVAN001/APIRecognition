@@ -1,6 +1,6 @@
 Would	O
 use	O
-double.TryParse	O
+double.TryParse	B
 ,	O
 it	O
 has	O

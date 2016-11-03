@@ -13,8 +13,8 @@ use	O
 string.h	O
 there	O
 is	O
-strchr	O
-(	O
-)	O
+strchr	B
+(	I
+)	I
 See	O
 here	O

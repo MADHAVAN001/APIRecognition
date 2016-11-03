@@ -23,7 +23,7 @@ comfortable	O
 and	O
 experienced	O
 with	O
-Python	O
+Python	B
 ,	O
 then	O
 say	O

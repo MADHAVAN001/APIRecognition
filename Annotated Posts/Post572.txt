@@ -251,7 +251,7 @@ ect	O
 )	O
 .	O
 (	O
-Boolean	O
+Boolean	B
 logic	O
 )	O
 FizzBuzz	O

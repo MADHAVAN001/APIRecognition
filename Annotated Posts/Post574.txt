@@ -37,7 +37,7 @@ wanted	O
 to	O
 play	O
 in	O
-BASIC	O
+BASIC	B
 .	O
 Maybe	O
 that	O

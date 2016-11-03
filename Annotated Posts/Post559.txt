@@ -68,5 +68,5 @@ api	O
 Until	O
 then	O
 ...	O
-JSON	O
+JSON	B
 ?	O

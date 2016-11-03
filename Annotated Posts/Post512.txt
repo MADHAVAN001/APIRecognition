@@ -40,7 +40,7 @@ make	O
 use	O
 of	O
 some	O
-ASP.Net	O
+ASP.Net	B
 features	O
 .	O
 That	O
@@ -61,7 +61,7 @@ site	O
 that	O
 used	O
 the	O
-ASP	O
-Menu	O
+ASP	B
+Menu	I
 control	O
 .	O

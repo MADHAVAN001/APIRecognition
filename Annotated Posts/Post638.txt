@@ -2,10 +2,10 @@ I	O
 'd	O
 personally	O
 use	O
-int.tryparse	O
+int.tryparse	B
 ,	O
 then	O
-double.tryparse	O
+double.tryparse	B
 .	O
 Performance	O
 on	O
@@ -19,7 +19,7 @@ They	O
 both	O
 return	O
 a	O
-Boolean	O
+Boolean	B
 .	O
 If	O
 both	O

@@ -138,7 +138,7 @@ var	O
 0	O
 ]	O
 )	O
-{	
+{	O
 case	O
 ``	O
 UInt32	O

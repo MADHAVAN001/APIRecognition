@@ -6,8 +6,8 @@ correct	O
 assemblies	O
 and	O
 a	O
-C	O
-#	O
+C	B
+#	I
 compiler	O
 you	O
 in	O
@@ -44,11 +44,11 @@ a	O
 real	O
 pain	O
 doing	O
-.NET	O
+.NET	B
 development	O
 without	O
-Visual	O
-Studio/SharpEdit/Monodevelop	O
+Visual	B
+Studio/SharpEdit/Monodevelop	I
 in	O
 my	O
 opinion	O

@@ -1,7 +1,0 @@
-Try	O
-Ruby	B
-(	O
-In	O
-Your	O
-Browser	O
-)	O

@@ -1,5 +1,5 @@
 Try	O
 using	O
 the	O
-System.Net.Dns	O
+System.Net.Dns	B
 class	O

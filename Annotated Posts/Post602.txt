@@ -1,5 +1,5 @@
 In	O
-Java	O
+Java	B
 ,	O
 the	O
 'int	O
@@ -19,8 +19,8 @@ an	O
 object	O
 .	O
 In	O
-C	O
-#	O
+C	B
+#	I
 ,	O
 the	O
 'int	O

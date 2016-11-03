@@ -1,9 +1,0 @@
-Would	O
-use	O
-double.TryParse	B
-,	O
-it	O
-has	O
-performance	O
-benefits	O
-.	O

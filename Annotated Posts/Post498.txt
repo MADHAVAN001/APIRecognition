@@ -15,7 +15,7 @@ lower	O
 level	O
 ,	O
 since	O
-Array.Length	O
+Array.Length	B
 will	O
 of	O
 course	O
@@ -30,7 +30,7 @@ some	O
 point	O
 ,	O
 if	O
-Array.Length	O
+Array.Length	B
 were	O
 unsigned	O
 ,	O

@@ -12,9 +12,9 @@ did	O
 I	O
 found	O
 the	O
-Shockwave	O
-Flash	O
-Object	O
+Shockwave	B
+Flash	I
+Object	I
 ,	O
 all	O
 be	O
@@ -51,9 +51,9 @@ a	O
 wrapper	O
 of	O
 the	O
-Shockwave	O
-Flash	O
-Object	O
+Shockwave	B
+Flash	I
+Object	I
 seems	O
 to	O
 provide	O

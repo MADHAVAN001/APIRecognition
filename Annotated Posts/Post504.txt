@@ -110,7 +110,7 @@ reference	O
 something	O
 like	O
 a	O
-QTextDocument	O
+QTextDocument	B
 in	O
 Qt	O
 .	O
@@ -136,7 +136,7 @@ an	O
 object	O
 like	O
 a	O
-QTextEdit	O
+QTextEdit	B
 to	O
 do	O
 the	O

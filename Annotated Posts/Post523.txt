@@ -21,7 +21,7 @@ values	O
 ,	O
 otherwise	O
 your	O
-CSV	O
+CSV	B
 file	O
 may	O
 break	O

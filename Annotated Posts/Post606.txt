@@ -15,8 +15,8 @@ inaccurate	O
 in	O
 relation	O
 to	O
-C	O
-#	O
+C	B
+#	I
 .	O
 Correct	O
 :	O
@@ -44,8 +44,8 @@ reserved	O
 keyword	O
 in	O
 the	O
-C	O
-#	O
+C	B
+#	I
 programming	O
 language	O
 ,	O
@@ -59,7 +59,7 @@ value	O
 type	O
 .	O
 and	O
-Float	O
+Float	B
 is	O
 not	O
 the	O
@@ -75,7 +75,7 @@ for	O
 ''float	O
 ''	O
 is	O
-System.Single	O
+System.Single	B
 .	O
 There	O
 are	O
@@ -99,8 +99,8 @@ names	O
 directly	O
 .	O
 In	O
-C	O
-#	O
+C	B
+#	I
 there	O
 is	O
 no	O
@@ -329,8 +329,8 @@ directly	O
 ,	O
 but	O
 in	O
-C	O
-#	O
+C	B
+#	I
 you	O
 need	O
 to	O
@@ -360,8 +360,8 @@ easily	O
 be	O
 changed	O
 in	O
-C	O
-#	O
+C	B
+#	I
 without	O
 creating	O
 a	O

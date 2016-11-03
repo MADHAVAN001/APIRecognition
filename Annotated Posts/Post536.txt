@@ -1,5 +1,5 @@
 Visual	B
-Studio	B
+Studio	I
 has	O
 a	O
 built	O
@@ -14,7 +14,7 @@ a	O
 similar	O
 way	O
 to	O
-NUnit	O
+NUnit	B
 ,	O
 but	O
 obviously	O
@@ -57,7 +57,7 @@ not	O
 as	O
 mature	O
 as	O
-NUnit	O
+NUnit	B
 as	O
 it	O
 's	O

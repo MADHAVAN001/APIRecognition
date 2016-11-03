@@ -15,7 +15,7 @@ I	O
 personally	O
 learned	O
 on	O
-BASIC	O
+BASIC	B
 at	O
 home	O
 ,	O
@@ -161,7 +161,7 @@ Once	O
 he	O
 's	O
 mastered	O
-BASIC	O
+BASIC	B
 or	O
 whatever	O
 you	O

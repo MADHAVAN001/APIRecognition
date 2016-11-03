@@ -44,7 +44,7 @@ stopping	O
 the	O
 action	O
 ,	O
-jQuery	O
+jQuery	B
 (	O
 which	O
 Stack	O

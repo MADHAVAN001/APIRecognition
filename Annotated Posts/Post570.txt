@@ -2,7 +2,7 @@ You	O
 could	O
 try	O
 using	O
-Alice	O
+Alice	B
 .	O
 It	O
 's	O
@@ -40,7 +40,7 @@ rather	O
 than	O
 contrived	O
 )	O
-Alice	O
+Alice	B
 uses	O
 a	O
 drag	O
@@ -58,7 +58,7 @@ of	O
 syntax	O
 errors	O
 .	O
-Alice	O
+Alice	B
 lets	O
 you	O
 construct	O
@@ -95,7 +95,7 @@ may	O
 look	O
 down	O
 at	O
-Alice	O
+Alice	B
 as	O
 a	O
 toy	O
@@ -122,5 +122,5 @@ Disclaimer	O
 I	O
 worked	O
 on	O
-Alice	O
+Alice	B
 .	O

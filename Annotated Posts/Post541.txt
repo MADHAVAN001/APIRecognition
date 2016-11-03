@@ -24,7 +24,7 @@ as	O
 you	O
 are	O
 using	O
-GetTickCount	O
+GetTickCount	B
 perhaps	O
 you	O
 are	O

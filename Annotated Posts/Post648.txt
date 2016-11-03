@@ -1,4 +1,4 @@
-NUnit	O
+NUnit	B
 is	O
 available	O
 at	O
@@ -14,8 +14,8 @@ when	O
 working	O
 on	O
 the	O
-MS	O
-stack	O
+MS	B
+stack	I
 -	O
 the	O
 support	O

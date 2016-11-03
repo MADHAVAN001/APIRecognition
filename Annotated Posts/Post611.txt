@@ -1,7 +1,7 @@
 Consider	O
 using	O
 a	O
-ManualResetEvent	O
+ManualResetEvent	B
 to	O
 block	O
 the	O

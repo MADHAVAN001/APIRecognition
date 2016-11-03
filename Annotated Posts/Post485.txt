@@ -1,7 +1,7 @@
 You	O
 could	O
 use	O
-DOS	O
+DOS	B
 ?	O
-DIR	B
-/s/b	B
+DIR	O
+/s/b	O

@@ -1,8 +1,8 @@
 I	O
 know	O
 that	O
-Visual	O
-Studio	O
+Visual	B
+Studio	I
 itself	O
 (	O
 at	O

@@ -12,10 +12,10 @@ was	O
 able	O
 to	O
 wrap	O
-MATLAB	O
+MATLAB	B
 simulation	O
 into	O
-DLL	O
+DLL	B
 and	O
 then	O
 call	O

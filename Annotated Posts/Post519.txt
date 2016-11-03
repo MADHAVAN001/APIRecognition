@@ -1,8 +1,8 @@
-?	B
-php	I
-$	B
-outputString	I
-=	B
+?	O
+php	B
+$	O
+outputString	O
+=	O
 (	O
 '	O
 ,	O
@@ -13,7 +13,7 @@ array	O
 )	O
 Sorry	O
 ,	O
-PHP	O
+PHP	B
 specific	O
 example	O
 ,	O

@@ -59,7 +59,7 @@ data	O
 structure	O
 needs	O
 an	O
-UInt32	O
+UInt32	B
 length	O
 ,	O
 you	O
@@ -75,7 +75,7 @@ array	O
 of	O
 bytes	O
 ,	O
-Int32	O
+Int32	B
 will	O
 give	O
 you	O

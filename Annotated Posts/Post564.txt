@@ -1,8 +1,8 @@
 Calling	O
-process.Start	O
+process.Start	B
 on	O
 the	O
-Mailto	O
+Mailto	B
 :	O
 protocol	O
 (	O

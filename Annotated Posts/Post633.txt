@@ -17,12 +17,12 @@ to	O
 get	O
 it	O
 with	O
-urllib	O
+urllib	B
 :	O
-site	B
-=	B
-meta	B
-=	B
+site	O
+=	O
+meta	O
+=	O
 print	B
 urllib.urlopen	B
 (	I

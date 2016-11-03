@@ -1,6 +1,6 @@
 In	O
-C	O
-#	O
+C	B
+#	I
 ,	O
 int	O
 is	O

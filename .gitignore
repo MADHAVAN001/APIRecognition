@@ -1,3 +1,7 @@
 *.pyc
 .idea
+stanford/*
+Result/*
+TestFiles/*
+Scores/*
 .idea/*.xml

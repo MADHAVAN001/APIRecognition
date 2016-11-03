@@ -1,11 +1,11 @@
 There	O
 is	O
 nothing	O
-VS	O
+VS	B
 specific	O
 with	O
 the	O
-MVC	O
+MVC	B
 framework	O
 -	O
 it	O
@@ -31,8 +31,8 @@ a	O
 quick-start	O
 framework	O
 .	O
-ASP.NET	O
-MVC	O
+ASP.NET	B
+MVC	I
 is	O
 ``	O
 bin-deployable	O
@@ -55,7 +55,7 @@ just	O
 point	O
 the	O
 wildcard	O
-ISAPI	O
+ISAPI	B
 filter	O
 to	O
-ASP.NET	O
+ASP.NET	B

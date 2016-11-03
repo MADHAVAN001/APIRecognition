@@ -33,50 +33,33 @@ def genPredictedList(testData):
     print s
     for tuple in s:
         prediction.append(tuple[1].encode('ascii',errors='ignore'))
-    # print "Length of predicted before return"
-    # print len(prediction)
     return prediction
 
 
 def generateAnalysis(reference, predicted):
-    # print "Length of reference"
-    # print len(reference)
-    # print "Length of predicted returned"
-    # print len(predicted)
-    # count = 0
-    # for i in reference:
-    #     if i == 'B':
-    #         count+=1
-    # print count
-    # count = 0
-    # for i in predicted:
-    #     if i == 'B':
-    #         count+=1
-    # print count
-
     cm = ConfusionMatrix(reference, predicted)
     print cm
     print cm.print_stats()
 
 
 def trainNERModel(trainData):
-    generateTokenFile(trainData)
-    os.system('java -cp stanford\stanford-ner.jar;stanford\slf4j-api.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop stanford\Properties.prop')
+    os.system('java -cp stanford\stanford-ner.jar;stanford\slf4j-api.jar edu.stanford.nlp.ie.crf.CRFClassifier '
+              '-prop stanford\Properties.prop')
     print "Completed"
 
-def genReferenceList(testData):
-    referenceList = []
-    refListTokens = []
-    for post in testData:
-        for ref in post:
-            referenceList.append(ref[1])
-            refListTokens.append(ref[0])
-    # print(refListTokens)
-    # refListTokensSet = set(refListTokens)
-    # print "list of tokens in reference but not in predicted:  "
-    # print list(set(refListTokensSet) - set(testset))
-    return referenceList
+def testNERModel(k,i):
+    os.system("java -cp stanford\stanford-ner-3.6.0.jar;stanford\slf4j-api.jar edu.stanford.nlp.ie.crf.CRFClassifier "
+              "-loadClassifier ner-model.ser.gz -testFile TestFiles\\test_kfold_"+str(k)+"_iter_"+str(i)+".tsv "
+              "1> Result\\result_kfold_"+str(k)+"_iter_"+str(i)+".tsv "
+              "2> Scores\score_kfold_"+str(k)+"_iter_"+str(i)+".txt");
 
+def genTestFile(testData,k,i):
+    file = open('TestFiles\\test_kfold_'+ str(k) + '_iter_' + str(i) + '.tsv', 'w')
+    for post in testData:
+        for list in post:
+            file.write(list[0].encode('ascii', errors='ignore') + '\t' + list[1] + '\n')
+    file.close()
+    # return referenceList
 
 def kcrossValidation():
     tokenizedPosts = []
@@ -84,11 +67,14 @@ def kcrossValidation():
     for i in range(0, 863):
         tokenizedPosts.append(annotatedCode("Annotated Posts\Post" + str(i) + ".txt"))
     num = (int)(len(tokenizedPosts) / k)
-    for i in range(0,k):
-        testData = tokenizedPosts[i * num:i * num + num]
-        trainData = [jj for jj in tokenizedPosts if jj not in testData]
-        trainNERModel(trainData)
-        generateAnalysis(genReferenceList(testData),genPredictedList(testData))
-
+    for k in range(2,10):
+        for i in range(0,k):
+            testData = tokenizedPosts[i * num:i * num + num]
+            trainData = [jj for jj in tokenizedPosts if jj not in testData]
+            generateTokenFile(trainData)
+            trainNERModel(trainData)
+            genTestFile(testData,k,i)
+            testNERModel(k,i)
+        # generateAnalysis(genReferenceList(testData),genPredictedList(testData))
 
 kcrossValidation()

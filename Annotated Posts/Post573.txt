@@ -89,9 +89,9 @@ to	O
 Personally	O
 I	O
 think	O
-Python	O
+Python	B
 and	O
-Ruby	O
+Ruby	B
 would	O
 make	O
 great	O

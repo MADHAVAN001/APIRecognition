@@ -1,7 +1,7 @@
 In	O
-WPF	O
+WPF	B
 and	O
-Silverlight	O
+Silverlight	B
 the	O
 binding	O
 infrastructure	O

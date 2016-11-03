@@ -1,9 +1,9 @@
 We	O
 use	O
-MbUnit	O
+MbUnit	B
 and	O
-Rihno	O
-Mocks	O
+Rihno	B
+Mocks	I
 and	O
 they	O
 prove	O
@@ -45,8 +45,8 @@ IoC	O
 container	O
 such	O
 as	O
-Castle	O
-Windsor	O
+Castle	B
+Windsor	I
 .	O
 It	O
 well	O

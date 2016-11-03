@@ -5,7 +5,7 @@ the	O
 previous	O
 explanations	O
 ,	O
-static	O
+static	B
 method	O
 calls	O
 are	O

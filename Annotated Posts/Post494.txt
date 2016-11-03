@@ -22,7 +22,7 @@ through	O
 a	O
 link	O
 +	O
-JQuery	O
+JQuery	B
 ,	O
 not	O
 through	O

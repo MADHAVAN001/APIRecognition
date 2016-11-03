@@ -1,6 +1,6 @@
 Dive	O
 Into	O
-Python	O
+Python	B
 has	O
 a	O
 chapter	O

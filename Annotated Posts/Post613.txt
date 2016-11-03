@@ -24,8 +24,8 @@ additional	O
 handler	O
 to	O
 the	O
-onClick	O
-event	O
+onClick	B
+event	I
 of	O
 the	O
 trigger	O
