@@ -1,0 +1,12 @@
+CRFClassifier invoked on Fri Nov 04 05:44:32 SGT 2016 with arguments:
+   -loadClassifier ner-model.ser.gz -testFile TestFiles\test_kfold_6_iter_5.tsv
+testFile=TestFiles\test_kfold_6_iter_5.tsv
+loadClassifier=ner-model.ser.gz
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Loading classifier from ner-model.ser.gz ... done [1.2 sec].
+CRFClassifier tagged 18711 words in 1 documents at 4553.66 words per second.
+         Entity	P	R	F1	TP	FP	FN
+            API	0.5435	0.2874	0.3759	125	105	310
+         Totals	0.5435	0.2874	0.3759	125	105	310
