@@ -7,10 +7,10 @@ exceptions	O
 (	O
 )	O
 :	O
-NullReferenceException	O
+NullReferenceException	B
 as	O
 :	O
-InvalidCastException	O
+InvalidCastException	B
 Which	O
 could	O
 help	O

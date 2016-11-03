@@ -14,11 +14,11 @@ os.name	O
 'posix'	O
 import	O
 platform	O
-platform.system	O
-(	O
-)	O
+platform.system	B
+(	I
+)	I
 'Darwin'	O
-platform.release	O
-(	O
-)	O
+platform.release	B
+(	I
+)	I
 '8.11.1'	O

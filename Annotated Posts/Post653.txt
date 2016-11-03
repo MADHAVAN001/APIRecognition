@@ -135,7 +135,7 @@ type=	O
 ''	O
 text/javascript	O
 ''	O
-Object.prototype.size	O
+Object.prototype.size	B
 =	O
 function	O
 (	O

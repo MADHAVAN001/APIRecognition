@@ -30,9 +30,9 @@ Liststring	O
 sl	O
 =	O
 new	O
-Liststring	O
-(	O
-)	O
+Liststring	B
+(	I
+)	I
 ;	O
 Listobject	O
 ol	O
@@ -56,9 +56,9 @@ Liststring	O
 sl	O
 =	O
 new	O
-Liststring	O
-(	O
-)	O
+Liststring	B
+(	I
+)	I
 ;	O
 Listobject	O
 ol	O

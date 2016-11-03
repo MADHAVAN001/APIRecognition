@@ -41,9 +41,9 @@ requests	O
 you	O
 need	O
 .	O
-$	B
-outlook	I
-=	B
+$	O
+outlook	O
+=	O
 COM	B
 (	I
 ``	I

@@ -37,11 +37,11 @@ use	O
 an	O
 Asp	O
 :	O
-CompareValidator	O
+CompareValidator	B
 instead	O
 of	O
 an	O
 Asp	O
 :	O
-CustomValidator	O
+CustomValidator	B
 .	O

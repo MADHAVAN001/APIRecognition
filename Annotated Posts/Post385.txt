@@ -2,9 +2,9 @@ The	O
 actual	O
 resolution	O
 of	O
-gettimeofday	O
-(	O
-)	O
+gettimeofday	B
+(	I
+)	I
 depends	O
 on	O
 the	O

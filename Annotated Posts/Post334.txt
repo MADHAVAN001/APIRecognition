@@ -69,13 +69,13 @@ in	O
 Framework	O
 ,	O
 named	O
-HiddenFieldPageStatePersister	O
+HiddenFieldPageStatePersister	B
 and	O
-SessionPageStatePersister	O
+SessionPageStatePersister	B
 .	O
 By	O
 default	O
-HiddenFieldPageStatePersister	O
+HiddenFieldPageStatePersister	B
 is	O
 used	O
 to	O
@@ -89,7 +89,7 @@ can	O
 easily	O
 get	O
 the	O
-SessionPageStatePersister	O
+SessionPageStatePersister	B
 to	O
 work	O
 and	O

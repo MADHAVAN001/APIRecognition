@@ -20,11 +20,11 @@ KeyValuePairstring	O
 int	O
 item	O
 in	O
-keywordCounts.OrderBy	O
-(	O
-key=	O
-key.Value	O
-)	O
+keywordCounts.OrderBy	B
+(	I
+key=	I
+key.Value	I
+)	I
 )	O
 {	O
 //	O

@@ -86,7 +86,7 @@ the	O
 library	O
 in	O
 its	O
-java.library.path	O
+java.library.path	B
 and	O
 is	O
 now	O

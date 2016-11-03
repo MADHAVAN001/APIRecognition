@@ -33,10 +33,10 @@ the	O
 tests	O
 on	O
 different	O
-environments	O
-(	O
-OSX/Linux/Win	O
-)	O
+environments	B
+(	I
+OSX/Linux/Win	I
+)	I
 and	O
 it	O
 sends	O

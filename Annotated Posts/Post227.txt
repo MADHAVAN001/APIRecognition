@@ -8,7 +8,7 @@ StringTokenizer	O
 and	O
 using	O
 the	O
-String.spilt	O
+String.spilt	B
 method	O
 instead	O
 .	O

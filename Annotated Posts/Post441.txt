@@ -1,9 +1,9 @@
-var	B
-element	B
-=	B
-;	B
-element.style.background	I
-=	B
+var	O
+element	O
+=	O
+;	O
+element.style.background	B
+=	O
 document.getElementById	B
 (	I
 'element	I

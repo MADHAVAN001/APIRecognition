@@ -26,7 +26,7 @@ produce	O
 code	O
 w/	O
 pure	O
-WinAPI	O
+WinAPI	B
 ?	O
 What	O
 can	O

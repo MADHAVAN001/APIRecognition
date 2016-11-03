@@ -63,7 +63,7 @@ n't	O
 have	O
 to	O
 access	O
-DataTable.Rows.Count	O
+DataTable.Rows.Count	B
 on	O
 every	O
 iteration	O
@@ -85,7 +85,7 @@ i	O
 0	O
 ;	O
 i	O
-DataTable.Rows.Count	O
+DataTable.Rows.Count	B
 ;	O
 i++	O
 )	O
@@ -105,7 +105,7 @@ i	O
 ,	O
 c	O
 =	O
-DataTable.Rows.Count	O
+DataTable.Rows.Count	B
 ;	O
 i	O
 c	O

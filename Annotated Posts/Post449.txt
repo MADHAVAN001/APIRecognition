@@ -53,9 +53,9 @@ Short	O
 version	O
 -	O
 use	O
-flush	O
-(	O
-)	O
+flush	B
+(	I
+)	I
 or	O
 whatever	O
 the	O
@@ -99,9 +99,9 @@ should	O
 appear	O
 in	O
 a	O
-read	O
-(	O
-)	O
+read	B
+(	I
+)	I
 after	O
 this	O
 point	O

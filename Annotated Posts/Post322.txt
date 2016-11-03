@@ -36,11 +36,11 @@ Watson	O
 as	O
 a	O
 defualt	O
-debugger	O
-(	O
-DrWtsn32	O
--I	O
-)	O
+debugger	B
+(	I
+DrWtsn32	I
+-I	I
+)	I
 on	O
 a	O
 machine	O

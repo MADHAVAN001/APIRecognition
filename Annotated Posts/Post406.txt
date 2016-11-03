@@ -30,11 +30,11 @@ os.name	O
 'nt'	O
 import	O
 platform	O
-platform.system	O
-(	O
-)	O
+platform.system	B
+(	I
+)	I
 'Windows'	O
-platform.release	O
-(	O
-)	O
+platform.release	B
+(	I
+)	I
 'Vista'	O

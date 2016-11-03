@@ -21,8 +21,8 @@ value	O
 in	O
 learing	O
 the	O
-Win32	O
-API	O
+Win32	B
+API	I
 .	O
 Most	O
 ,	O
@@ -42,8 +42,8 @@ in	O
 calls	O
 to	O
 the	O
-Win32	O
-API	O
+Win32	B
+API	I
 .	O
 Even	O
 the	O
