@@ -19,7 +19,7 @@ this	O
 var	O
 Person	O
 =	O
-Class.create	B
+Class.create	B-API
 (	O
 {	O
 initialize	O

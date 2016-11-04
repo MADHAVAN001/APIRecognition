@@ -53,12 +53,10 @@ instance	O
 ASCII	O
 134	O
 :	O
-	O
 ,	O
 ASCII	O
 143	O
 :	O
-	O
 .	O
 Using	O
 arithmetic	O

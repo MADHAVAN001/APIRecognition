@@ -60,7 +60,7 @@ python	O
 ,	O
 talk	O
 about	O
-WSGI	B
+WSGI	B-API
 and	O
 other	O
 web	O
@@ -170,7 +170,7 @@ ruby	O
 ,	O
 python	O
 and	O
-PHP	B
+PHP	B-API
 in	O
 the	O
 same	O

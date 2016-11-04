@@ -1,6 +1,6 @@
 Would	O
 use	O
-double.TryParse	B
+double.TryParse	B-API
 ,	O
 it	O
 has	O

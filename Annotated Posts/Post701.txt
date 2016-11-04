@@ -1,7 +1,7 @@
 For	O
 C++	O
 ,	O
-Boost.Random	B
+Boost.Random	B-API
 is	O
 probably	O
 what	O

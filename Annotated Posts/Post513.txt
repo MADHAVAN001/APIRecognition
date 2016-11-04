@@ -9,7 +9,7 @@ string	O
 parameter	O
 ,	O
 the	O
-Javascript	B
+Javascript	B-API
 function	O
 thinks	O
 I	O
@@ -28,7 +28,7 @@ string	O
 function	O
 to	O
 force	O
-JavaScript	B
+JavaScript	B-API
 into	O
 changing	O
 it	O

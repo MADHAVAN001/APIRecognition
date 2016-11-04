@@ -15,9 +15,9 @@ n't	O
 you	O
 do	O
 a	O
-String.split	B
-(	I
-)	I
+String.split	B-API
+(	I-API
+)	I-API
 on	O
 each	O
 line	O

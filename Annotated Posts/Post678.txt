@@ -1,4 +1,4 @@
-Firebug	B
+Firebug	B-API
 is	O
 pretty	O
 well	O

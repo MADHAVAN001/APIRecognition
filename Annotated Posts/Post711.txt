@@ -25,10 +25,10 @@ PINVOKE	O
 for	O
 .NET	O
 :	O
-IsWow64Process	B
-(	I
-kernel32	I
-)	I
+IsWow64Process	B-API
+(	I-API
+kernel32	I-API
+)	I-API
 Update	O
 :	O
 I	O

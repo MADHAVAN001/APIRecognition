@@ -24,8 +24,8 @@ additional	O
 handler	O
 to	O
 the	O
-onClick	B
-event	I
+onClick	B-API
+event	I-API
 of	O
 the	O
 trigger	O

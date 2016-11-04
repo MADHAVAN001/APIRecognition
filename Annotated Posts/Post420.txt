@@ -25,7 +25,7 @@ the	O
 call	O
 over	O
 to	O
-ScriptManager.RegisterClientScriptBlock	B
+ScriptManager.RegisterClientScriptBlock	B-API
 ,	O
 regardless	O
 of	O

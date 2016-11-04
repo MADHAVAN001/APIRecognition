@@ -1,11 +1,11 @@
 Try	O
 creating	O
 a	O
-div	B
-(	I
-'div	I
-'	I
-)	I
+div	B-API
+(	I-API
+'div	I-API
+'	I-API
+)	I-API
 And	O
 then	O
 set	O

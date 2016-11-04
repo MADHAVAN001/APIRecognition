@@ -11,7 +11,7 @@ you	O
 should	O
 use	O
 :	O
-ScriptManager.RegisterClientScriptBlock	B
+ScriptManager.RegisterClientScriptBlock	B-API
 It	O
 will	O
 work	O
@@ -22,5 +22,5 @@ environments	O
 then	O
 the	O
 old	O
-Page.ClientScript	B
+Page.ClientScript	B-API
 version	O

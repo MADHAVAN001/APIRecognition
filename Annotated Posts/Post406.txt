@@ -30,11 +30,11 @@ os.name	O
 'nt'	O
 import	O
 platform	O
-platform.system	B
-(	I
-)	I
+platform.system	B-API
+(	I-API
+)	I-API
 'Windows'	O
-platform.release	B
-(	I
-)	I
+platform.release	B-API
+(	I-API
+)	I-API
 'Vista'	O

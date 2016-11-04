@@ -131,7 +131,7 @@ Hudson	O
 trend	O
 graphs	O
 our	O
-JUnit	B
+JUnit	B-API
 tests	O
 ,	O
 coverage	O

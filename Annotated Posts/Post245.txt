@@ -52,8 +52,8 @@ equivalents	O
 for	O
 the	O
 entire	O
-Windows	B
-API	I
+Windows	B-API
+API	I-API
 .	O
 Sometimes	O
 you	O

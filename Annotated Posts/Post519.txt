@@ -1,5 +1,5 @@
 ?	O
-php	B
+php	B-API
 $	O
 outputString	O
 =	O
@@ -13,7 +13,7 @@ array	O
 )	O
 Sorry	O
 ,	O
-PHP	B
+PHP	B-API
 specific	O
 example	O
 ,	O

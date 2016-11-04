@@ -154,8 +154,8 @@ on	O
 my	O
 like	O
 this	O
-%	B
-@	I
+%	B-API
+@	I-API
 Register	O
 ''	O
 AjaxControlToolkit	O

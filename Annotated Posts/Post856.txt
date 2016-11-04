@@ -7,7 +7,7 @@ here	O
 .	O
 We	O
 use	O
-TestDriven.NET	B
+TestDriven.NET	B-API
 to	O
 run	O
 the	O

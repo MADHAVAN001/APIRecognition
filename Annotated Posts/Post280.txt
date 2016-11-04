@@ -13,7 +13,7 @@ trans	O
 (	O
 double	O
 )	O
-trackBar1.Value	B
+trackBar1.Value	B-API
 /	O
 ;	O
 Identifying	O
@@ -31,14 +31,14 @@ sufficient	O
 double	O
 trans	O
 =	O
-trackBar1.Value	B
+trackBar1.Value	B-API
 /	O
 5000.0	O
 ;	O
 double	O
 trans	O
 =	O
-trackBar1.Value	B
+trackBar1.Value	B-API
 /	O
 5000d	O
 ;	O

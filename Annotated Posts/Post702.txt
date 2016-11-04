@@ -3,7 +3,7 @@ Gnu	O
 Scientific	O
 Library	O
 (	O
-GSL	B
+GSL	B-API
 )	O
 has	O
 a	O

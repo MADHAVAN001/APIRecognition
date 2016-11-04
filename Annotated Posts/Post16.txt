@@ -6,8 +6,8 @@ issues	O
 getting	O
 the	O
 C	O
-sockets	B
-API	I
+sockets	B-API
+API	I-API
 to	O
 work	O
 properly	O

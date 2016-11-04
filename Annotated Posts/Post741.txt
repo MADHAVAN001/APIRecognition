@@ -22,10 +22,10 @@ sense	O
 to	O
 throw	O
 an	O
-IllegalArgumentException	B
+IllegalArgumentException	B-API
 .	O
 A	O
-NullPointerException	B
+NullPointerException	B-API
 seems	O
 to	O
 make	O
@@ -69,5 +69,5 @@ it	O
 's	O
 null	O
 ,	O
-IllegalArgument	B
+IllegalArgument	B-API
 .	O

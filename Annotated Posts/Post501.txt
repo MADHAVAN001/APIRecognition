@@ -1,4 +1,4 @@
-ElementTree	B
+ElementTree	B-API
 has	O
 a	O
 nice	O
@@ -14,8 +14,8 @@ shipped	O
 as	O
 part	O
 of	O
-python	B
-2.5	I
+python	B-API
+2.5	I-API
 It	O
 's	O
 in	O
@@ -46,7 +46,7 @@ same	O
 API	O
 and	O
 uses	O
-libxml2	B
+libxml2	B-API
 under	O
 the	O
 hood	O

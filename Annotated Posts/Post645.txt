@@ -1,7 +1,7 @@
 In	O
-WPF	B
+WPF	B-API
 and	O
-Silverlight	B
+Silverlight	B-API
 the	O
 binding	O
 infrastructure	O

@@ -1,4 +1,4 @@
-Java	B
+Java	B-API
 autoboxing/unboxing	O
 does	O
 n't	O
@@ -98,8 +98,8 @@ to	O
 your	O
 way	O
 )	O
-Integer.toString	B
-(	I
-myInt	I
-)	I
+Integer.toString	B-API
+(	I-API
+myInt	I-API
+)	I-API
 ;	O

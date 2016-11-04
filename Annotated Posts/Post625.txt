@@ -5,7 +5,7 @@ the	O
 previous	O
 explanations	O
 ,	O
-static	B
+static	B-API
 method	O
 calls	O
 are	O

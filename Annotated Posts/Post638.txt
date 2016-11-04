@@ -2,10 +2,10 @@ I	O
 'd	O
 personally	O
 use	O
-int.tryparse	B
+int.tryparse	B-API
 ,	O
 then	O
-double.tryparse	B
+double.tryparse	B-API
 .	O
 Performance	O
 on	O
@@ -19,7 +19,7 @@ They	O
 both	O
 return	O
 a	O
-Boolean	B
+Boolean	B-API
 .	O
 If	O
 both	O

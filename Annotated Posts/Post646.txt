@@ -1,4 +1,4 @@
-NUnit	B
+NUnit	B-API
 is	O
 always	O
 a	O
@@ -11,7 +11,7 @@ if	O
 you	O
 are	O
 using	O
-TFS	B
+TFS	B-API
 as	O
 your	O
 source	O
@@ -22,6 +22,6 @@ you	O
 stick	O
 with	O
 the	O
-Microsoft	B
-Stack	I
+Microsoft	B-API
+Stack	I-API
 .	O

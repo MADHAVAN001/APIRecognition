@@ -2,9 +2,9 @@ Some	O
 object	O
 suppose	O
 the	O
-.dispose	B
-(	I
-)	I
+.dispose	B-API
+(	I-API
+)	I-API
 method	O
 which	O
 forces	O

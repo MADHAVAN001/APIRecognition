@@ -3,6 +3,6 @@ Windows	O
 :	O
 import	O
 msvcrt	O
-answer=msvcrt.getch	B
-(	I
-)	I
+answer=msvcrt.getch	B-API
+(	I-API
+)	I-API

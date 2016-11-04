@@ -15,7 +15,7 @@ way	O
 using	O
 flowcharts	O
 and	O
-PDL	B
+PDL	B-API
 (	O
 Program	O
 Design	O
@@ -34,7 +34,7 @@ learned	O
 to	O
 convert	O
 the	O
-PDL	B
+PDL	B-API
 I	O
 had	O
 written	O

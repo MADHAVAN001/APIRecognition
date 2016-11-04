@@ -54,10 +54,10 @@ card	O
 class	O
 implements	O
 (	O
-public	B
-class	B
-Card056	B
-:	B
+public	B-API
+class	B-API
+Card056	B-API
+:	B-API
 )	O
 and	O
 which	O

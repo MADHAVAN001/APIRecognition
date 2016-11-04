@@ -19,7 +19,7 @@ like	O
 google	O
 desktop	O
 or	O
-copernic	B
+copernic	B-API
 to	O
 do	O
 it	O
@@ -32,7 +32,7 @@ index	O
 .	O
 I	O
 know	O
-copernic	B
+copernic	B-API
 has	O
 an	O
 API	O

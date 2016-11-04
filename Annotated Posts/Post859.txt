@@ -5,10 +5,10 @@ think	O
 !	O
 /bin/pythonbar	O
 in	O
-dict	B
-(	I
-Foo	I
-)	I
+dict	B-API
+(	I-API
+Foo	I-API
+)	I-API
 Is	O
 what	O
 you	O
@@ -49,9 +49,9 @@ check	O
 First	O
 is	O
 the	O
-has_key	B
-(	I
-)	I
+has_key	B-API
+(	I-API
+)	I-API
 method	O
 attached	O
 to	O

@@ -34,7 +34,7 @@ can	O
 just	O
 do	O
 a	O
-Response.Redirect	B
+Response.Redirect	B-API
 ,	O
 or	O
 perhaps	O

@@ -7,10 +7,10 @@ exceptions	O
 (	O
 )	O
 :	O
-NullReferenceException	B
+NullReferenceException	B-API
 as	O
 :	O
-InvalidCastException	B
+InvalidCastException	B-API
 Which	O
 could	O
 help	O

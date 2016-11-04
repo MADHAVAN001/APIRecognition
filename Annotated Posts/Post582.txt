@@ -149,7 +149,7 @@ there	O
 ,	O
 and	O
 learned	O
-BASIC	B
+BASIC	B-API
 at	O
 home	O
 before	O
@@ -219,12 +219,12 @@ then	O
 ASP/VBScript	O
 ,	O
 then	O
-JavaScript	B
+JavaScript	B-API
 ,	O
 then	O
 Flash/ActionScript	O
 then	O
-PHP	B
+PHP	B-API
 -	O
 all	O
 in	O

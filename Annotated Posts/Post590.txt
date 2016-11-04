@@ -1,7 +1,7 @@
 You	O
 can	O
 use	O
-ImageMagick	B
+ImageMagick	B-API
 's	O
 convert	O
 utility	O

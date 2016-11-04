@@ -56,7 +56,7 @@ above	O
 will	O
 evaluate	O
 ``	O
-message.nil	B
+message.nil	B-API
 ?	O
 ''	O
 first	O
@@ -149,6 +149,6 @@ same	O
 as	O
 :	O
 unless	O
-message.nil	B
+message.nil	B-API
 ?	O
 puts	O

@@ -1,9 +1,9 @@
 We	O
 use	O
-MbUnit	B
+MbUnit	B-API
 and	O
-Rihno	B
-Mocks	I
+Rihno	B-API
+Mocks	I-API
 and	O
 they	O
 prove	O
@@ -45,8 +45,8 @@ IoC	O
 container	O
 such	O
 as	O
-Castle	B
-Windsor	I
+Castle	B-API
+Windsor	I-API
 .	O
 It	O
 well	O

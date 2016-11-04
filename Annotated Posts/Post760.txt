@@ -40,7 +40,7 @@ to	O
 For	O
 example	O
 :	O
-int*	B
+int*	B-API
 Says	O
 that	O
 my_int_pointer	O

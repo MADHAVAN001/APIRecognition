@@ -14,7 +14,7 @@ console	O
 I	O
 get	O
 a	O
-UnicodeEncodeError	B
+UnicodeEncodeError	B-API
 :	O
 'charmap	O
 '	O

@@ -57,10 +57,10 @@ can	O
 express	O
 binary	O
 using	O
-int	B
-(	I
-'01010101111',2	I
-)	I
+int	B-API
+(	I-API
+'01010101111',2	I-API
+)	I-API
 but	O
 not	O
 with	O

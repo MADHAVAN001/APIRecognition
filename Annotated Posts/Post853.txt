@@ -1,6 +1,6 @@
 I	O
 like	O
-TestDriven.NET	B
+TestDriven.NET	B-API
 (	O
 even	O
 though	O
@@ -14,7 +14,7 @@ I	O
 pretty	O
 happy	O
 with	O
-XUnit.net	B
+XUnit.net	B-API
 .	O
 It	O
 uses	O

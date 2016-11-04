@@ -1,3 +1,4 @@
+# Script to read annotated data from text files
 import re
 
 def annotatedCode(file):
@@ -11,14 +12,6 @@ def annotatedCode(file):
             continue
         else:
             list.append(line[0])
-            if(line[1] != 'O'):
-                list.append(line[1]+'-API')
-            else:
-                list.append(line[1])
-            # if line[1] == '' or line[1] == 'OI':
-            #     print file
-            #     print line
+            list.append(line[1])
             tokenizedList.append(list)
-        # if len(line)==2:
-        #     tokenizedDict[line[0]] = line[1]
     return tokenizedList

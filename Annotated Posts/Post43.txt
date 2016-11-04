@@ -29,9 +29,9 @@ DataTable	O
 myDt	O
 =	O
 new	O
-DataTable	B
-(	I
-)	I
+DataTable	B-API
+(	I-API
+)	I-API
 ;	O
 if	O
 (	O

@@ -29,7 +29,7 @@ it	O
 could	O
 not	O
 replace	O
-XML	B
+XML	B-API
 in	O
 that	O
 use	O
@@ -39,7 +39,7 @@ I	O
 would	O
 also	O
 recommend	O
-JSON	B
+JSON	B-API
 as	O
 being	O
 the	O

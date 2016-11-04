@@ -45,9 +45,9 @@ LastCount	O
 =	O
 mydict	O
 [	O
-mydict.keys	B
+mydict.keys	B-API
 [	O
-mydict.keys.Count	B
+mydict.keys.Count	B-API
 ]	O
 ]	O
 ;	O

@@ -17,6 +17,6 @@ this	O
 may	O
 apply	O
 against	O
-Ruby	B
+Ruby	B-API
 )	O
 .	O

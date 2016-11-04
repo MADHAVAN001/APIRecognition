@@ -57,7 +57,7 @@ main	O
 choice	O
 is	O
 probably	O
-MBUnit	B
+MBUnit	B-API
 ,	O
 which	O
 is	O

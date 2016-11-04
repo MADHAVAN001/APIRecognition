@@ -122,9 +122,9 @@ work	O
 !	O
 dt	O
 =	O
-query.CopyToDataTable	B
-(	I
-)	I
+query.CopyToDataTable	B-API
+(	I-API
+)	I-API
 ;	O
 return	O
 dt	O

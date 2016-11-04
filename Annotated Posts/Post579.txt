@@ -7,7 +7,7 @@ I	O
 actually	O
 play	O
 with	O
-Scratch	B
+Scratch	B-API
 sometimes	O
 if	O
 I	O
@@ -129,6 +129,6 @@ from	O
 or	O
 extend	O
 other	O
-Scratch	B
+Scratch	B-API
 applications	O
 .	O

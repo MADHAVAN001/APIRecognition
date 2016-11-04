@@ -21,9 +21,9 @@ nothing	O
 about	O
 using	O
 the	O
-win32	B
-visual	I
-API	I
+win32	B-API
+visual	I-API
+API	I-API
 ,	O
 MFC	O
 ,	O

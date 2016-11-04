@@ -60,7 +60,7 @@ Ruby	O
 Nokogiri	O
 Hpricot	O
 Mechanize	O
-scrAPI	B
+scrAPI	B-API
 scRUBYt	O
 !	O
 wombat	O

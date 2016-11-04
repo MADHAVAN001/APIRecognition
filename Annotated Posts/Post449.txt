@@ -53,9 +53,9 @@ Short	O
 version	O
 -	O
 use	O
-flush	B
-(	I
-)	I
+flush	B-API
+(	I-API
+)	I-API
 or	O
 whatever	O
 the	O
@@ -99,9 +99,9 @@ should	O
 appear	O
 in	O
 a	O
-read	B
-(	I
-)	I
+read	B-API
+(	I-API
+)	I-API
 after	O
 this	O
 point	O

@@ -52,9 +52,9 @@ to	O
 go	O
 about	O
 calling	O
-foo.bar	B
-(	I
-)	I
+foo.bar	B-API
+(	I-API
+)	I-API
 ?	O
 I	O
 need	O

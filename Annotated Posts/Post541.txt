@@ -24,7 +24,7 @@ as	O
 you	O
 are	O
 using	O
-GetTickCount	B
+GetTickCount	B-API
 perhaps	O
 you	O
 are	O

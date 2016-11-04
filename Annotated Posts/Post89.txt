@@ -20,9 +20,9 @@ filename	O
 .	O
 eg	O
 .	O
-C	B
-:	I
-\MyApp\MyApp.exe	I
+C	B-API
+:	I-API
+\MyApp\MyApp.exe	I-API
 .	O
 But	O
 this	O

@@ -1,6 +1,6 @@
 Using	O
-SQL	B
-Server	B
+SQL	B-API
+Server	B-API
 ,	O
 how	O
 do	O
@@ -19,9 +19,9 @@ example	O
 Take	O
 the	O
 string	O
-``	B
-Hello	I
-John	B
+``	B-API
+Hello	I-API
+John	B-API
 .	O
 How	O
 can	O

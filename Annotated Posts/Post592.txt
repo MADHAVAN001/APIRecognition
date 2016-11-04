@@ -12,9 +12,9 @@ did	O
 I	O
 found	O
 the	O
-Shockwave	B
-Flash	I
-Object	I
+Shockwave	B-API
+Flash	I-API
+Object	I-API
 ,	O
 all	O
 be	O
@@ -51,9 +51,9 @@ a	O
 wrapper	O
 of	O
 the	O
-Shockwave	B
-Flash	I
-Object	I
+Shockwave	B-API
+Flash	I-API
+Object	I-API
 seems	O
 to	O
 provide	O

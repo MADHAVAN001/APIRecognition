@@ -18,11 +18,11 @@ code	O
 :	O
 decimal	O
 =	O
-trackBar1.Value	B
+trackBar1.Value	B-API
 /	O
 5000	O
 ;	O
-this.Opacity	B
+this.Opacity	B-API
 =	O
 trans	O
 ;	O

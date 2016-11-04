@@ -6,9 +6,9 @@ world	O
 I	O
 recommend	O
 the	O
-HTML	B
-Agility	I
-Pack	I
+HTML	B-API
+Agility	I-API
+Pack	I-API
 .	O
 Not	O
 near	O
@@ -50,7 +50,7 @@ so	O
 you	O
 can	O
 use	O
-XPATH	B
+XPATH	B-API
 or	O
 just	O
 itereate	O
