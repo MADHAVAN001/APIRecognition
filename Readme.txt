@@ -12,11 +12,9 @@ System Requirements:
 
 Installation:
 1. nltk is required for this project. Before proceeding further, see the below section which explains how to install nltk.
-2. Download the stanford NER library from the following link:
-3. Extract the folder in the project directory. 
-4. Download the 'Annotated Posts' and 'Data' folder from the following link:
-5. Extract them in the project directory.
-6. Run 'TestNER.py' to train and test the model. 
+2. Download the stanford, Annotated Posts, Data directory from the link mentioned above.
+3. Extract the folders in the project directory.
+4. Run 'TestNER.py' to train and test the model.
 
 NOTE: Do not change the name of any directory.
 NOTE: The program might take long to run as it iterates k-1 times for each value of k in range 2 to 10. To change the value, open TestNER.py and change the relevant part inside kcrossValidation().
