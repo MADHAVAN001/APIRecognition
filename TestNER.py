@@ -1,6 +1,5 @@
 # Script to train and test the model
 
-from nltk.tag import StanfordNERTagger
 import os
 from ReadAnnotation import annotatedCode
 
@@ -11,27 +10,6 @@ def generateTokenFile(tokenizedPosts):
         for list in post:
             file.write(list[0].encode('ascii',errors='ignore') + '\t' + list[1] + '\n')
     file.close()
-
-
-def genPredictedList(testData):
-    # global testset
-    test = []
-    for post in testData:
-        for token in post:
-            test.append(token[0])
-
-    java_path = "C:/Program Files/Java/jdk1.8.0_102/bin/java.exe"
-    os.environ['JAVAHOME'] = java_path
-    st = StanfordNERTagger('ner-model.ser.gz',
-                           'stanford\stanford-ner-3.6.0.jar',
-                           encoding='utf-8')
-
-    s = st.tag(test)
-    prediction = []
-    print s
-    for tuple in s:
-        prediction.append(tuple[1].encode('ascii',errors='ignore'))
-    return prediction
 
 
 def trainNERModel(trainData):
