@@ -19,12 +19,11 @@ Installation:
 NOTE: Do not change the name of any directory.
 NOTE: The program might take long to run as it iterates k-1 times for each value of k in range 2 to 10. To change the value, open TestNER.py and change the relevant part inside kcrossValidation().
 
-Installing NLTK:
-1. Run the followinf command in cmd, 'pip install nltk'.
+How to install NLTK:
+1. Run the following command in cmd, 'pip install nltk'.
 2. Open python console.
-3. Run the command download.nltk()
-4. A NLTK Downloader UI will popup.
-5. Download All Packages.
+3. Run the following command, import nltk
+4. Run the following command nltk.download('all')
 
 Output:
 1. The generated test files for each iteration can be found under 'TestFiles' directory.
