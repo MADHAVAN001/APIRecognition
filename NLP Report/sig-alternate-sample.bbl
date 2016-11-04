@@ -1,0 +1,100 @@
+\begin{thebibliography}{10}
+
+\bibitem{asahara2003japanese}
+M.~Asahara and Y.~Matsumoto.
+\newblock Japanese named entity extraction with redundant morphological
+  analysis.
+\newblock In {\em Proceedings of the 2003 Conference of the North American
+  Chapter of the Association for Computational Linguistics on Human Language
+  Technology-Volume 1}, pages 8--15. Association for Computational Linguistics,
+  2003.
+
+\bibitem{bazelli2013personality}
+B.~Bazelli, A.~Hindle, and E.~Stroulia.
+\newblock On the personality traits of stackoverflow users.
+\newblock In {\em ICSM}, pages 460--463, 2013.
+
+\bibitem{bickel1998efficient}
+P.~J. Bickel, C.~A. Klaassen, Y.~Ritov, J.~A. Wellner, et~al.
+\newblock Efficient and adaptive estimation for semiparametric models.
+\newblock 1998.
+
+\bibitem{bird2006nltk}
+S.~Bird.
+\newblock Nltk: the natural language toolkit.
+\newblock In {\em Proceedings of the COLING/ACL on Interactive presentation
+  sessions}, pages 69--72. Association for Computational Linguistics, 2006.
+
+\bibitem{brin2012reprint}
+S.~Brin and L.~Page.
+\newblock Reprint of: The anatomy of a large-scale hypertextual web search
+  engine.
+\newblock {\em Computer networks}, 56(18):3825--3833, 2012.
+
+\bibitem{stackexchange}
+S.~Exchange.
+\newblock {Stack Exchange Data Dump}.
+\newblock \url{https://archive.org/details/stackexchange}, 2014.
+\newblock [Online; accessed 09-September-2016].
+
+\bibitem{fukuda1998toward}
+K.-i. Fukuda, T.~Tsunoda, A.~Tamura, T.~Takagi, et~al.
+\newblock Toward information extraction: identifying protein names from
+  biological papers.
+\newblock In {\em Pac symp biocomput}, volume 707, pages 707--718. Citeseer,
+  1998.
+
+\bibitem{grishman1996message}
+R.~Grishman and B.~Sundheim.
+\newblock Message understanding conference-6: A brief history.
+\newblock In {\em COLING}, volume~96, pages 466--471, 1996.
+
+\bibitem{liimproving}
+C.~Li and Y.~Liu.
+\newblock Improving named entity recognition in tweets via detecting
+  non-standard words.
+
+\bibitem{okanohara2006improving}
+D.~Okanohara, Y.~Miyao, Y.~Tsuruoka, and J.~Tsujii.
+\newblock Improving the scalability of semi-markov conditional random fields
+  for named entity recognition.
+\newblock In {\em Proceedings of the 21st International Conference on
+  Computational Linguistics and the 44th annual meeting of the Association for
+  Computational Linguistics}, pages 465--472. Association for Computational
+  Linguistics, 2006.
+
+\bibitem{pfeifer1996retrieval}
+U.~Pfeifer, T.~Poersch, and N.~Fuhr.
+\newblock Retrieval effectiveness of proper name search methods.
+\newblock {\em Information Processing \& Management}, 32(6):667--679, 1996.
+
+\bibitem{poibeau2001proper}
+T.~Poibeau and L.~Kosseim.
+\newblock Proper name extraction from non-journalistic texts.
+\newblock {\em Language and computers}, 37(1):144--157, 2001.
+
+\bibitem{porter1980algorithm}
+M.~F. Porter.
+\newblock An algorithm for suffix stripping.
+\newblock {\em Program}, 14(3):130--137, 1980.
+
+\bibitem{riloff1999learning}
+E.~Riloff and R.~Jones.
+\newblock Learning dictionaries for information extraction by multi-level
+  bootstrapping.
+\newblock In {\em AAAI/IAAI}, pages 474--479, 1999.
+
+\bibitem{stanley2013predicting}
+C.~Stanley and M.~D. Byrne.
+\newblock Predicting tags for stackoverflow posts.
+\newblock In {\em Proceedings of ICCM}, volume 2013, 2013.
+
+\bibitem{tjong2003introduction}
+E.~F. Tjong Kim~Sang and F.~De~Meulder.
+\newblock Introduction to the conll-2003 shared task: Language-independent
+  named entity recognition.
+\newblock In {\em Proceedings of the seventh conference on Natural language
+  learning at HLT-NAACL 2003-Volume 4}, pages 142--147. Association for
+  Computational Linguistics, 2003.
+
+\end{thebibliography}
