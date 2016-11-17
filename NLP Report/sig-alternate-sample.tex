@@ -217,7 +217,7 @@ Figure \ref{fig:afterRemovingStopWords} shows a significant change in the list o
 
 \subsection{POS Tagging}
 
-Part-of-speech tagging (POS tagging), is the process of marking up a word in a text (corpus) as corresponding to a particular part of speech, based on both its definition and its context, i.e., its relationship with adjacent and related words in a phrase, sentence, or paragraph. As a prerequisite of the assignment, 10 sentences from the dataset collected earlier were selected. Each sentence was chosen in a manner such that it contains an API mention. For each of the selected sentences, manual POS tagging was implemented. The results of the tags are as shown below: 
+As a prerequisite of the assignment, 10 sentences from the dataset collected earlier were selected. Each sentence was chosen in a manner such that it contains an API mention. For each of the selected sentences, manual POS tagging was implemented. The results of the tags are as shown below: 
 
 \begin{description}
 \item[1.]
@@ -312,12 +312,12 @@ The format of a function call is confined to specific conditions. This includes 
 
 \subsubsection{Process of tokenization and annotation}
 
-Based on the above definition, the posts collected were tokenized using nltk’s library to tokenize each of the posts into specific tokens. The tokens were further stored as text files, for each post. Following this, manual annotation of the tokens was implemented. The data is annotated according to the BIO encoding which is an “industry standard” encoding.
+Based on the above definition, the posts collected were tokenized using nltk’s library to tokenize each of the posts into specific tokens. The tokens were further stored as text files, for each post. Following this, manual annotation of the tokens was implemented. The data is annotated according to the BIO encoding which is an “industry standard” encoding. \cite{ramshaw1995text} \cite{ratnaparkhi1998maximum}
 It subdivides the tags as either being begin-of-entity {(B-X)} or continuation-of-entity {(I-X)}. In our model, for each token, the token itself and the tag indicating whether the token is the Beginning of a chunk of type API (B-API) or Inside a chunk of type API (I-API) or Outside any chunk (O) are stored as separate files. These files are used for training the model to recognize an API and is further explained. 
 
 
 \section{API Recognition}
-In order to create an API recognition tool, we used the Stanford NER library to create a specific classifier for training. Stanford NER is a Java implementation of a Named Entity Recognizer. It  is also known as CRFClassifier. It comes with well-engineered feature extractors for Named Entity Recognition, and many options for defining feature extractors. Included with the download are good named entity recognizers for English, particularly for the 3 classes (PERSON, ORGANIZATION, LOCATION). However, the software also provides a general implementation of linear chain Conditional Random Field (CRF) sequence models. We use this for training our model on the labeled data to do the Named Entity Recognition task.
+In order to create an API recognition tool, we used the Stanford NER library \cite{stanfordNER} to create a specific classifier for training. Stanford NER is a Java implementation of a Named Entity Recognizer. It  is also known as CRFClassifier. However, the software also provides a general implementation of linear chain Conditional Random Field (CRF) sequence models. We use this for training our model on the labeled data to do the Named Entity Recognition task.
 
 \subsection{Training the model}
 The training data should be in tab-separated columns, with nominally the word tokens in one column and the class labels in another column. In our model the word token is followed by the BIO encoded API tag. The data file, and features to be generated are specified using a properties file.  The training file parser is quite rigid. The test file must contain the tokens and tags separated only by tabs, and may not work with spaces. Posts can be separated by a blank line, and this is a unit input to the CRF. 
@@ -336,7 +336,7 @@ java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier 
 \end{description}
 
 \section{Error Analysis and Evaluation}
-The evaluation of the model was done by implementing $k-fold$ cross validation. In $k-fold$ cross-validation, the dataset is partitioned into $k$ sized subsamples. Of these, a single subsample is retained as the validation data for testing the model, and the remaining $k − 1$ samples are used as training data. The cross-validation process is then repeated $k$ fold, with each of the $k$ subsamples being used exactly once as the validation data. The $k$ results from the folds can then be averaged to produce a single estimation. The advantage of this method is that all observations are used for both training and validation, and each observation is used for validation exactly once. 
+The evaluation of the model was done by implementing $k-fold$ cross validation. 
 
 The model was evaluated for different values of $k$ over the dataset.
 
@@ -387,12 +387,7 @@ The F-measure increases slightly on increasing the number of folds. It increases
   \label{fig:Performance1}
 \end{figure}
 
-\begin{figure}
-\centering
-  \includegraphics[width=\linewidth]{Performance2.png}
-  \caption{Distribution of Answers}
-  \label{fig:Performance2}
-\end{figure}
+
 
 From the results from the classifier, an analysis on the annotated data was made by studying the false positives and false negatives generated by the model. False positive is a result that indicates that a given condition has been satisfied, when it actually has not been satisfied.
 
@@ -430,7 +425,12 @@ Dr & B-API & O \\
 Based on the annotation and results, it can be inferred that since the tokens come under the definition of an API, the model misclassified them as their similarity to an API is high.
 
 False negative on the other hand is when a test result indicates that a condition failed, while it actually was successful. In these following cases, the data was annotated as API but not recognized by the model. 
-
+\begin{figure}
+\centering
+  \includegraphics[width=\linewidth]{Performance2.png}
+  \caption{Error Analysis measured over different number of folds in k-fold validation}
+  \label{fig:Performance2}
+\end{figure}
 
 \subsection{False Negative}
 

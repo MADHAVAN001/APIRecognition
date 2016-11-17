@@ -54,6 +54,12 @@ C.~Li and Y.~Liu.
 \newblock Improving named entity recognition in tweets via detecting
   non-standard words.
 
+\bibitem{stanfordNER}
+S.~NER.
+\newblock {Stanford NER Library}.
+\newblock \url{http://nlp.stanford.edu/software/CRF-NER.shtml}, 2016.
+\newblock [Online; accessed 09-September-2016].
+
 \bibitem{okanohara2006improving}
 D.~Okanohara, Y.~Miyao, Y.~Tsuruoka, and J.~Tsujii.
 \newblock Improving the scalability of semi-markov conditional random fields
@@ -77,6 +83,17 @@ T.~Poibeau and L.~Kosseim.
 M.~F. Porter.
 \newblock An algorithm for suffix stripping.
 \newblock {\em Program}, 14(3):130--137, 1980.
+
+\bibitem{ramshaw1995text}
+L.~A. Ramshaw and M.~P. Marcus.
+\newblock Text chunking using transformation-based learning.
+\newblock {\em arXiv preprint cmp-lg/9505040}, 1995.
+
+\bibitem{ratnaparkhi1998maximum}
+A.~Ratnaparkhi.
+\newblock {\em Maximum entropy models for natural language ambiguity
+  resolution}.
+\newblock PhD thesis, University of Pennsylvania, 1998.
 
 \bibitem{riloff1999learning}
 E.~Riloff and R.~Jones.

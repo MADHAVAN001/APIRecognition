@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9) (preloaded format=xelatex 2016.1.19)  4 NOV 2016 16:34
+This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9) (preloaded format=xelatex 2016.1.19)  18 NOV 2016 00:07
 entering extended mode
 **sig-alternate-sample.tex
 
@@ -431,7 +431,7 @@ Overfull \hbox (3.69733pt too wide) in paragraph at lines 137--138
 
 
 Overfull \hbox (1.05864pt too wide) in paragraph at lines 137--138
-\T1/aer/m/n/9 names from Non-Journalistic Texts [12]. How-ever, such stud-
+\T1/aer/m/n/9 names from Non-Journalistic Texts [13]. How-ever, such stud-
  []
 
 
@@ -490,7 +490,7 @@ Underfull \hbox (badness 2790) in paragraph at lines 231--235
 \T1/aer/m/n/9 [vari-ables/Noun][posted/Verb] [through/Preposition]
  []
 
-[3]
+
 Underfull \hbox (badness 10000) in paragraph at lines 237--243
 \T1/aer/m/n/9 get vari-ables spec-i-fied as URL pa-ram-e-ters.
  []
@@ -515,7 +515,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--243
 \T1/aer/m/n/9 [vari-ables/Noun][specified/Verb] [as/Preposition]
  []
 
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 245--251
 \T1/aer/m/n/9 int there could be messy re-sults.
  []
@@ -682,10 +682,14 @@ Missing character: There is no ‘ in font aer9!
 Missing character: There is no ’ in font aer9!
 Missing character: There is no ‘ in font aer9!
 Missing character: There is no ’ in font aer9!
-[4]
 Missing character: There is no ’ in font aer9!
 Missing character: There is no “ in font aer9!
 Missing character: There is no ” in font aer9!
+[4]
+Overfull \hbox (1.61774pt too wide) in paragraph at lines 320--321
+\T1/aer/m/n/9 train-ing. Stan-ford NER is a Java im-ple-men-ta-tion of a Named
+ []
+
 
 Overfull \hbox (8.13373pt too wide) in paragraph at lines 330--331
 []\T1/aer/m/n/9 java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier
@@ -698,27 +702,21 @@ Overfull \hbox (8.13373pt too wide) in paragraph at lines 335--336
 
  []
 
-Missing character: There is no − in font cmr9!
 [5]
 File: Performance1.png Graphic file (type QTm)
  <use  "Performance1.png" >
-File: Performance2.png Graphic file (type QTm)
- <use  "Performance2.png" >
-Underfull \vbox (badness 8189) has occurred while \output is active []
-
-
-Overfull \hbox (1.98822pt too wide) in paragraph at lines 418--428
+Overfull \hbox (1.98822pt too wide) in paragraph at lines 413--423
  [] 
  []
 
-
+File: Performance2.png Graphic file (type QTm)
+<use  "Performance2.png" >
 Overfull \hbox (19.92477pt too wide) in paragraph at lines 438--452
  [] 
  []
 
-[6]
 Missing character: There is no ’ in font aer9!
-
+[6]
 ("C:\Users\Madhavan Seshadri\PycharmProjects\APIRecognition\NLP Report\sig-alte
 rnate-sample.bbl"
 Requested font "aeti9" at 9.0pt
@@ -729,10 +727,10 @@ Requested font "aeti9" at 9.0pt
 ("C:\Users\Madhavan Seshadri\PycharmProjects\APIRecognition\NLP Report\sig-alte
 rnate-sample.aux") ) 
 Here is how much of TeX's memory you used:
- 2601 strings out of 429035
- 30406 string characters out of 3166907
- 96041 words of memory out of 3000000
- 5797 multiletter control sequences out of 15000+200000
+ 2604 strings out of 429035
+ 30460 string characters out of 3166907
+ 97041 words of memory out of 3000000
+ 5800 multiletter control sequences out of 15000+200000
  44606 words of font info for 60 fonts, out of 3000000 for 9000
  912 hyphenation exceptions out of 8191
  41i,10n,37p,1359b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
