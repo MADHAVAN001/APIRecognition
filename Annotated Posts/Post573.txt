@@ -89,9 +89,9 @@ to	O
 Personally	O
 I	O
 think	O
-Python	B
+Python	B-API
 and	O
-Ruby	B
+Ruby	B-API
 would	O
 make	O
 great	O

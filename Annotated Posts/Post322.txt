@@ -36,11 +36,11 @@ Watson	O
 as	O
 a	O
 defualt	O
-debugger	B
-(	I
-DrWtsn32	I
--I	I
-)	I
+debugger	B-API
+(	I-API
+DrWtsn32	I-API
+-I	I-API
+)	I-API
 on	O
 a	O
 machine	O

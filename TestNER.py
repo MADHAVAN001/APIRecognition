@@ -1,7 +1,8 @@
-from nltk.tag import StanfordNERTagger
+# Script to train and test the model
+
 import os
-#from pandas_ml import ConfusionMatrix
 from ReadAnnotation import annotatedCode
+
 
 def generateTokenFile(tokenizedPosts):
     file = open('stanford\Token.tsv','w')
@@ -9,37 +10,6 @@ def generateTokenFile(tokenizedPosts):
         for list in post:
             file.write(list[0].encode('ascii',errors='ignore') + '\t' + list[1] + '\n')
     file.close()
-
-def genPredictedList(testData):
-    # global testset
-    test = []
-    for post in testData:
-        for token in post:
-            test.append(token[0])
-    # print test
-    # print"Length of test"
-    # print len(test)
-    # testset = set(test)
-    java_path = "C:/Program Files/Java/jdk1.8.0_102/bin/java.exe"
-    os.environ['JAVAHOME'] = java_path
-    st = StanfordNERTagger('ner-model.ser.gz',
-                           'stanford\stanford-ner-3.6.0.jar',
-                           encoding='utf-8')
-
-    s = st.tag(test)
-    # print "length of s"
-    # print len(s)
-    prediction = []
-    print s
-    for tuple in s:
-        prediction.append(tuple[1].encode('ascii',errors='ignore'))
-    return prediction
-
-
-#def generateAnalysis(reference, predicted):
-    #cm = ConfusionMatrix(reference, predicted)
-    #print cm
-    #print cm.print_stats()
 
 
 def trainNERModel(trainData):
@@ -53,13 +23,14 @@ def testNERModel(k,i):
               "1> Result\\result_kfold_"+str(k)+"_iter_"+str(i)+".tsv "
               "2> Scores\score_kfold_"+str(k)+"_iter_"+str(i)+".txt");
 
+
 def genTestFile(testData,k,i):
     file = open('TestFiles\\test_kfold_'+ str(k) + '_iter_' + str(i) + '.tsv', 'w')
     for post in testData:
         for list in post:
             file.write(list[0].encode('ascii', errors='ignore') + '\t' + list[1] + '\n')
     file.close()
-    # return referenceList
+
 
 def kcrossValidation():
     tokenizedPosts = []
@@ -75,6 +46,5 @@ def kcrossValidation():
             trainNERModel(trainData)
             genTestFile(testData,k,i)
             testNERModel(k,i)
-        # generateAnalysis(genReferenceList(testData),genPredictedList(testData))
 
 kcrossValidation()

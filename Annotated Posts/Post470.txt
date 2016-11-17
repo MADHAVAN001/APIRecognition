@@ -23,7 +23,7 @@ comfortable	O
 and	O
 experienced	O
 with	O
-Python	B
+Python	B-API
 ,	O
 then	O
 say	O

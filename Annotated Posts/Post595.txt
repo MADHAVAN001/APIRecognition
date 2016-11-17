@@ -10,7 +10,7 @@ type	O
 this	O
 in	O
 :	O
-locate	B
+locate	B-API
 This	O
 will	O
 spit	O

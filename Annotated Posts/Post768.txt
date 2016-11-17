@@ -7,7 +7,7 @@ you	O
 can	O
 use	O
 the	O
-MethodInvoker	B
+MethodInvoker	B-API
 delegate	O
 and	O
 avoid	O

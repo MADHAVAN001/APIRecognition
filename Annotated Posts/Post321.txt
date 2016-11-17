@@ -42,8 +42,8 @@ better	O
 to	O
 Detour	O
 the	O
-low-level	B
-alloc	B
+low-level	B-API
+alloc	B-API
 s	O
 using	O
 Microsoft	O

@@ -10,7 +10,7 @@ building	O
 fairly	O
 simple	O
 ''	O
-XML	B
+XML	B-API
 ,	O
 the	O
 minidom	O
@@ -19,9 +19,9 @@ module	O
 part	O
 of	O
 the	O
-Python	B
-Standard	I
-Library	I
+Python	B-API
+Standard	I-API
+Library	I-API
 )	O
 will	O
 likely	O
@@ -36,10 +36,10 @@ any	O
 experience	O
 with	O
 the	O
-DOM	B
+DOM	B-API
 representation	O
 of	O
-XML	B
+XML	B-API
 ,	O
 you	O
 should	O

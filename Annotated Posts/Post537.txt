@@ -30,7 +30,7 @@ I	O
 would	O
 also	O
 recommend	O
-Rhino	B
+Rhino	B-API
 if	O
 you	O
 are	O

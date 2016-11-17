@@ -2,9 +2,9 @@ The	O
 actual	O
 resolution	O
 of	O
-gettimeofday	B
-(	I
-)	I
+gettimeofday	B-API
+(	I-API
+)	I-API
 depends	O
 on	O
 the	O

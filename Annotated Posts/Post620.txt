@@ -5,8 +5,8 @@ at	O
 Creating	O
 and	O
 Using	O
-URL	B
-Monikers	I
+URL	B-API
+Monikers	I-API
 ,	O
 About	O
 Asynchronous	O

@@ -368,8 +368,8 @@ box	O
 RAM	O
 in	O
 an	O
-E6550	B
-Core2	B
+E6550	B-API
+Core2	B-API
 )	O
 ;	O
 this	O
@@ -580,7 +580,7 @@ Reproduce	O
 the	O
 problem	O
 .	O
-Dr	B
+Dr	B-API
 will	O
 produce	O
 a	O
@@ -720,7 +720,7 @@ runtime	O
 library	O
 settings	O
 (	O
-C/C++	B
+C/C++	B-API
 ,	O
 Code	O
 Generation	O

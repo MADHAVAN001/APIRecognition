@@ -60,7 +60,7 @@ the	O
 object	O
 from	O
 a	O
-getter	B
+getter	B-API
 )	O
 .	O
 Thus	O
@@ -88,12 +88,12 @@ public	O
 void	O
 {	O
 ;	O
-ExposeThisMethod	B
-(	I
-)	I
-baseClass.ExposeThisMethod	B
-(	I
-)	I
+ExposeThisMethod	B-API
+(	I-API
+)	I-API
+baseClass.ExposeThisMethod	B-API
+(	I-API
+)	I-API
 Or	O
 :	O
 public	O

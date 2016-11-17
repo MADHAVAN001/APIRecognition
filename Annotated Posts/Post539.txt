@@ -6,8 +6,8 @@ correct	O
 assemblies	O
 and	O
 a	O
-C	B
-#	I
+C	B-API
+#	I-API
 compiler	O
 you	O
 in	O
@@ -44,11 +44,11 @@ a	O
 real	O
 pain	O
 doing	O
-.NET	B
+.NET	B-API
 development	O
 without	O
-Visual	B
-Studio/SharpEdit/Monodevelop	I
+Visual	B-API
+Studio/SharpEdit/Monodevelop	I-API
 in	O
 my	O
 opinion	O

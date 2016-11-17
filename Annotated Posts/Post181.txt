@@ -15,9 +15,9 @@ actually	O
 use	O
 Python	O
 's	O
-itertools.groupby	B
-(	I
-)	I
+itertools.groupby	B-API
+(	I-API
+)	I-API
 function	O
 .	O
 What	O
@@ -94,9 +94,9 @@ do	O
 I	O
 use	O
 of	O
-itertools.groupby	B
-(	I
-)	I
+itertools.groupby	B-API
+(	I-API
+)	I-API
 ?	O
 Is	O
 there	O

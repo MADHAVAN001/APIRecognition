@@ -63,7 +63,6 @@ not	O
 a	O
 skill	O
 thing	O
-	O
 it	O
 requires	O
 a	O

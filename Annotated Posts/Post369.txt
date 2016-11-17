@@ -5,10 +5,10 @@ the	O
 correct	O
 answer	O
 ?	O
-document.getElementById	B
-(	I
-``	I
-newSkill	I
-''	I
-)	I
-.innerHTML	I
+document.getElementById	B-API
+(	I-API
+``	I-API
+newSkill	I-API
+''	I-API
+)	I-API
+.innerHTML	I-API

@@ -25,9 +25,9 @@ overriding	O
 this	O
 method	O
 ;	O
-protected	B
-override	B
-void	B
+protected	B-API
+override	B-API
+void	B-API
 (	O
 object	O
 viewState	O

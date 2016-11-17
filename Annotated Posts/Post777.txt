@@ -63,13 +63,13 @@ dateAsAt	O
 )	O
 {	O
 return	O
-dateAsAt.Year	B
+dateAsAt.Year	B-API
 -	O
-dateOfBirth.Year	B
+dateOfBirth.Year	B-API
 -	O
 (	O
-dateOfBirth.DayOfYear	B
-dateAsAt.DayOfYear	B
+dateOfBirth.DayOfYear	B-API
+dateAsAt.DayOfYear	B-API
 ?	O
 0	O
 :	O

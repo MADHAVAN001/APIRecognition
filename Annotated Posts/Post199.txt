@@ -22,8 +22,8 @@ allowed	O
 something	O
 like	O
 ,	O
-foo	B
-in	B
+foo	B-API
+in	B-API
 (	O
 array	O
 of	O

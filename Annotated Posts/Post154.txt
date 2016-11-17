@@ -42,9 +42,9 @@ Linux/etc	O
 we	O
 have	O
 a	O
-drand48	B
-(	I
-)	I
+drand48	B-API
+(	I-API
+)	I-API
 which	O
 generates	O
 48	O
@@ -102,9 +102,9 @@ based	O
 on	O
 the	O
 C-language	O
-rand	B
-(	I
-)	I
+rand	B-API
+(	I-API
+)	I-API
 or	O
 .NET	O
 .	O

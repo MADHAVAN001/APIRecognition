@@ -48,7 +48,7 @@ rootControl.Controls	O
 {	O
 if	O
 (	O
-control.Controls.Count	B
+control.Controls.Count	B-API
 0	O
 )	O
 {	O

@@ -1,6 +1,6 @@
 Dive	O
 Into	O
-Python	B
+Python	B-API
 has	O
 a	O
 chapter	O

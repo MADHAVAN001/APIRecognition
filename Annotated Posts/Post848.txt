@@ -64,8 +64,8 @@ here	O
 for	O
 (	O
 int	O
-i	B
-=	B
+i	B-API
+=	B-API
 ;	O
 i	O
 10	O
@@ -106,9 +106,9 @@ will	O
 be	O
 executed	O
 for	O
-i	B
-=	B
+i	B-API
+=	B-API
 to	O
-i	B
-=	B
+i	B-API
+=	B-API
 .	O

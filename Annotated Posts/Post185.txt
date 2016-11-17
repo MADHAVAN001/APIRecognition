@@ -200,7 +200,7 @@ ComboBox	O
 ;	O
 box.DataSource	O
 =	O
-myitems.ToArray	B
-(	I
-)	I
+myitems.ToArray	B-API
+(	I-API
+)	I-API
 ;	O

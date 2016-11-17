@@ -14,9 +14,9 @@ easy	O
 I	O
 'm	O
 using	O
-raw_input	B
-(	I
-)	I
+raw_input	B-API
+(	I-API
+)	I-API
 to	O
 get	O
 the	O

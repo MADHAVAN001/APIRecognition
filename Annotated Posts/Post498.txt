@@ -15,7 +15,7 @@ lower	O
 level	O
 ,	O
 since	O
-Array.Length	B
+Array.Length	B-API
 will	O
 of	O
 course	O
@@ -30,7 +30,7 @@ some	O
 point	O
 ,	O
 if	O
-Array.Length	B
+Array.Length	B-API
 were	O
 unsigned	O
 ,	O

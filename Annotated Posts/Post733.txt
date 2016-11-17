@@ -14,7 +14,7 @@ solution	O
 one	O
 that	O
 uses	O
-StreamReader	B
+StreamReader	B-API
 and	O
 one	O
 that	O

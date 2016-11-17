@@ -23,11 +23,11 @@ new	O
 Blah	O
 (	O
 )	O
-alert	B
-(	I
-'blah	I
-'	I
-)	I
+alert	B-API
+(	I-API
+'blah	I-API
+'	I-API
+)	I-API
 Bla	O
 (	O
 )	O

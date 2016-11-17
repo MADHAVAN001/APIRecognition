@@ -1,6 +1,6 @@
 In	O
-C	B
-#	I
+C	B-API
+#	I-API
 ,	O
 int	O
 is	O
@@ -33,7 +33,7 @@ do	O
 n't	O
 require	O
 a	O
-using	B
+using	B-API
 statement	O
 :	O
 )	O

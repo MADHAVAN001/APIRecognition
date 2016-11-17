@@ -124,7 +124,7 @@ etc	O
 and	O
 the	O
 ``	O
-Capitalize	B
+Capitalize	B-API
 ''	O
 function	O
 will	O

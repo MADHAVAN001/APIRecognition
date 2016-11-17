@@ -1,4 +1,4 @@
-Geni	B
+Geni	B-API
 is	O
 probably	O
 what	O

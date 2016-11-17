@@ -64,8 +64,8 @@ There	O
 are	O
 many	O
 cool	O
-Vista	B
-API	I
+Vista	B-API
+API	I-API
 's	O
 only	O
 available	O
@@ -87,8 +87,8 @@ do	O
 interop	O
 with	O
 a	O
-Win32	B
-API	I
+Win32	B-API
+API	I-API
 ,	O
 if	O
 you	O

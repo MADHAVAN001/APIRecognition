@@ -2,10 +2,10 @@ var	O
 element	O
 =	O
 ;	O
-element.style.background	B
+element.style.background	B-API
 =	O
-document.getElementById	B
-(	I
-'element	I
-'	I
-)	I
+document.getElementById	B-API
+(	I-API
+'element	I-API
+'	I-API
+)	I-API

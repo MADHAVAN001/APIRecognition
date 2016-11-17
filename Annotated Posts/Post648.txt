@@ -1,4 +1,4 @@
-NUnit	B
+NUnit	B-API
 is	O
 available	O
 at	O
@@ -14,8 +14,8 @@ when	O
 working	O
 on	O
 the	O
-MS	B
-stack	I
+MS	B-API
+stack	I-API
 -	O
 the	O
 support	O

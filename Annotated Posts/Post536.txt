@@ -1,5 +1,5 @@
-Visual	B
-Studio	I
+Visual	B-API
+Studio	I-API
 has	O
 a	O
 built	O
@@ -14,7 +14,7 @@ a	O
 similar	O
 way	O
 to	O
-NUnit	B
+NUnit	B-API
 ,	O
 but	O
 obviously	O
@@ -23,7 +23,7 @@ much	O
 tighter	O
 integration	O
 with	O
-Visual	B
+Visual	B-API
 (	O
 can	O
 run	O
@@ -57,7 +57,7 @@ not	O
 as	O
 mature	O
 as	O
-NUnit	B
+NUnit	B-API
 as	O
 it	O
 's	O

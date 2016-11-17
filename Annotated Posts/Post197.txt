@@ -46,7 +46,7 @@ foreach	O
 DataRow	O
 row	O
 in	O
-myTable.Rows	B
+myTable.Rows	B-API
 )	O
 {	O
 if	O

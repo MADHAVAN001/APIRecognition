@@ -52,7 +52,7 @@ that	O
 would	O
 mean	O
 that	O
-keys.Count	B
+keys.Count	B-API
 (	O
 or	O
 .Count	O
@@ -100,6 +100,6 @@ can	O
 use	O
 mydict	O
 [	O
-mydict.Keys.Count	B
+mydict.Keys.Count	B-API
 ]	O
 ?	O

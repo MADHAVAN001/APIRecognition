@@ -25,7 +25,7 @@ wish	O
 I	O
 knew	O
 about	O
-BeautifulSoup	B
+BeautifulSoup	B-API
 when	O
 I	O
 started	O
@@ -56,10 +56,10 @@ try	O
 Ruby	O
 they	O
 ported	O
-BeautifulSoup	B
+BeautifulSoup	B-API
 calling	O
 it	O
-RubyfulSoup	B
+RubyfulSoup	B-API
 but	O
 it	O
 has	O
@@ -74,9 +74,9 @@ Other	O
 useful	O
 tools	O
 are	O
-HTMLParser	B
+HTMLParser	B-API
 or	O
-sgmllib.SGMLParser	B
+sgmllib.SGMLParser	B-API
 which	O
 are	O
 part	O
@@ -145,7 +145,7 @@ n't	O
 very	O
 necessary	O
 .	O
-BeautifulSoup	B
+BeautifulSoup	B-API
 handles	O
 regular	O
 expressions	O
@@ -165,7 +165,7 @@ I	O
 say	O
 go	O
 with	O
-BeautifulSoup	B
+BeautifulSoup	B-API
 unless	O
 you	O
 need	O

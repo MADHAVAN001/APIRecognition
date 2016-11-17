@@ -86,7 +86,7 @@ print	O
 head	O
 +	O
 'not	O
-__import__	B
-(	I
-module_name	I
-)	I
+__import__	B-API
+(	I-API
+module_name	I-API
+)	I-API

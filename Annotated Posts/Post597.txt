@@ -10,8 +10,8 @@ is	O
 located	O
 in	O
 the	O
-ApplicationServices	B
-framework	I
+ApplicationServices	B-API
+framework	I-API
 ,	O
 which	O
 does	O
@@ -42,12 +42,12 @@ ctypes	O
 you	O
 can	O
 use	O
-ATSFontGetFileReference	B
+ATSFontGetFileReference	B-API
 after	O
 looking	O
 up	O
 the	O
-ATSFontRef	B
+ATSFontRef	B-API
 .	O
 Cocoa	O
 does	O

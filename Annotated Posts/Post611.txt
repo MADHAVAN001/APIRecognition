@@ -1,7 +1,7 @@
 Consider	O
 using	O
 a	O
-ManualResetEvent	B
+ManualResetEvent	B-API
 to	O
 block	O
 the	O
@@ -16,9 +16,9 @@ processing	O
 ,	O
 and	O
 call	O
-Reset	B
-(	I
-)	I
+Reset	B-API
+(	I-API
+)	I-API
 on	O
 it	O
 once	O

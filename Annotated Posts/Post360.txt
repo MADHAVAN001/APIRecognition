@@ -86,7 +86,7 @@ the	O
 library	O
 in	O
 its	O
-java.library.path	B
+java.library.path	B-API
 and	O
 is	O
 now	O

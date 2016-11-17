@@ -97,7 +97,7 @@ logic	O
 to	O
 determine	O
 stylesheet	O
-linkStyles.Href	B
+linkStyles.Href	B-API
 =	O
 stylesheetAddress	O
 ;	O

@@ -23,9 +23,9 @@ is	O
 to	O
 use	O
 the	O
-Windows	B
-Shell	I
-API	I
+Windows	B-API
+Shell	I-API
+API	I-API
 .	O
 You	O
 'll	O

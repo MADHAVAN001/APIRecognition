@@ -59,7 +59,7 @@ data	O
 structure	O
 needs	O
 an	O
-UInt32	B
+UInt32	B-API
 length	O
 ,	O
 you	O
@@ -75,7 +75,7 @@ array	O
 of	O
 bytes	O
 ,	O
-Int32	B
+Int32	B-API
 will	O
 give	O
 you	O

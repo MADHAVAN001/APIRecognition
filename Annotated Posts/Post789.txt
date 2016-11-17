@@ -16,7 +16,7 @@ can	O
 reach	O
 into	O
 the	O
-java.util.zip	B
+java.util.zip	B-API
 libraries	O
 from	O
 C	O
@@ -26,7 +26,7 @@ For	O
 references	O
 see	O
 :	O
-java.util.zip	B
+java.util.zip	B-API
 javadocs	O
 sample	O
 code	O

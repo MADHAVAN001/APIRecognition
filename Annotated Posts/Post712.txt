@@ -13,9 +13,9 @@ check	O
 the	O
 value	O
 of	O
-IntPtr.Size	B
-.	I
-EDIT	I
+IntPtr.Size	B-API
+.	I-API
+EDIT	I-API
 :	O
 Doh	O
 !	O

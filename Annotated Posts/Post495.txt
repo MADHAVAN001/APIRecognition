@@ -1,4 +1,4 @@
-Request.Form	B
+Request.Form	B-API
 only	O
 includes	O
 variables	O
@@ -8,7 +8,7 @@ a	O
 form	O
 ,	O
 while	O
-Request.Params	B
+Request.Params	B-API
 includes	O
 both	O
 posted	O

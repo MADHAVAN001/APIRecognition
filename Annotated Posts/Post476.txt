@@ -1,5 +1,5 @@
-Visual	B
-Studio	I
+Visual	B-API
+Studio	I-API
 also	O
 has	O
 a	O

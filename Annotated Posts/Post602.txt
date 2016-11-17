@@ -1,5 +1,5 @@
 In	O
-Java	B
+Java	B-API
 ,	O
 the	O
 'int	O
@@ -19,8 +19,8 @@ an	O
 object	O
 .	O
 In	O
-C	B
-#	I
+C	B-API
+#	I-API
 ,	O
 the	O
 'int	O

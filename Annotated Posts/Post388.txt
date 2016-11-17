@@ -178,11 +178,11 @@ execution	O
 .	O
 execute	O
 the	O
-rdtsc	B
-(	I
-read	I
-timestamp	I
-)	I
+rdtsc	B-API
+(	I-API
+read	I-API
+timestamp	I-API
+)	I-API
 execution	O
 .	O
 This	O

@@ -79,7 +79,7 @@ for	O
 commercial	O
 projects	O
 )	O
-WxPython	B
+WxPython	B-API
 -	O
 based	O
 on	O
@@ -135,7 +135,7 @@ popular	O
 out	O
 there	O
 (	O
-PyInstaller	B
+PyInstaller	B-API
 is	O
 also	O
 gaining	O

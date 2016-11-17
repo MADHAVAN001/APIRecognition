@@ -1,4 +1,4 @@
-gedit	B
+gedit	B-API
 Syntax	O
 highlighting	O
 Fast	O

@@ -154,10 +154,10 @@ width:50	O
 %	O
 ;	O
 }	O
-div.clear	B
-{	I
-clear	I
-:	I
+div.clear	B-API
+{	I-API
+clear	I-API
+:	I-API
 both	O
 ;	O
 }	O

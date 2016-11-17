@@ -44,7 +44,7 @@ stopping	O
 the	O
 action	O
 ,	O
-jQuery	B
+jQuery	B-API
 (	O
 which	O
 Stack	O

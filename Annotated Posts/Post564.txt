@@ -1,8 +1,8 @@
 Calling	O
-process.Start	B
+process.Start	B-API
 on	O
 the	O
-Mailto	B
+Mailto	B-API
 :	O
 protocol	O
 (	O

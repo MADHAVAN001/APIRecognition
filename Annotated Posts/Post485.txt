@@ -1,7 +1,7 @@
 You	O
 could	O
 use	O
-DOS	B
+DOS	B-API
 ?	O
 DIR	O
 /s/b	O

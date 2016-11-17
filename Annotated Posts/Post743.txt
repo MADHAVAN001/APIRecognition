@@ -49,7 +49,7 @@ states	O
 :	O
 @	O
 throws	O
-NullPointerException	B
+NullPointerException	B-API
 if	O
 the	O
 key	O
@@ -116,7 +116,7 @@ null	O
 {	O
 throw	O
 new	O
-NullPointerException	B
+NullPointerException	B-API
 (	O
 ``	O
 mustNotBeNull	O

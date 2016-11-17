@@ -7,10 +7,10 @@ u.name	O
 ,	O
 isnull	O
 (	O
-MAX	B
-(	I
-h.dateCol	I
-)	I
+MAX	B-API
+(	I-API
+h.dateCol	I-API
+)	I-API
 ,	O
 '1900-01-01	O
 '	O

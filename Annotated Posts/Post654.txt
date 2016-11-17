@@ -3,7 +3,7 @@ object	O
 has	O
 a	O
 (	O
-String	B
+String	B-API
 paramName	O
 )	O
 method	O
@@ -20,7 +20,7 @@ http	O
 :	O
 //java.sun.com/javaee/5/docs/api/javax/servlet/ServletRequest.html	O
 #	O
-getParameter	B
-(	I
-java.lang.String	I
-)	I
+getParameter	B-API
+(	I-API
+java.lang.String	I-API
+)	I-API

@@ -30,9 +30,9 @@ Liststring	O
 sl	O
 =	O
 new	O
-Liststring	B
-(	I
-)	I
+Liststring	B-API
+(	I-API
+)	I-API
 ;	O
 Listobject	O
 ol	O
@@ -56,9 +56,9 @@ Liststring	O
 sl	O
 =	O
 new	O
-Liststring	B
-(	I
-)	I
+Liststring	B-API
+(	I-API
+)	I-API
 ;	O
 Listobject	O
 ol	O

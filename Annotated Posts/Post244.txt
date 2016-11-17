@@ -92,7 +92,7 @@ for	O
 example	O
 )	O
 then	O
-WinAPI	B
+WinAPI	B-API
 is	O
 your	O
 solution	O

@@ -40,7 +40,7 @@ make	O
 use	O
 of	O
 some	O
-ASP.Net	B
+ASP.Net	B-API
 features	O
 .	O
 That	O
@@ -61,7 +61,7 @@ site	O
 that	O
 used	O
 the	O
-ASP	B
-Menu	I
+ASP	B-API
+Menu	I-API
 control	O
 .	O

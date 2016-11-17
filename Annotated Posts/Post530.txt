@@ -1,8 +1,8 @@
 I	O
 know	O
 that	O
-Visual	B
-Studio	I
+Visual	B-API
+Studio	I-API
 itself	O
 (	O
 at	O
